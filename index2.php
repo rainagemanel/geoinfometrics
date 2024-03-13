@@ -1,3 +1,5 @@
+<?php include 'header.php'; ?>
+
 <!DOCTYPE html>
 <!-- This site was created in Webflow. https://www.webflow.com --><!-- Last Published: Mon Mar 11 2024 06:58:01 GMT+0000 (Coordinated Universal Time) -->
 <html
@@ -58,107 +60,7 @@
     />
   </head>
   <body>
-    <div
-      data-collapse="medium"
-      data-animation="default"
-      data-duration="400"
-      data-no-scroll="1"
-      data-easing="ease"
-      data-easing2="ease"
-      role="banner"
-      class="navbar w-nav"
-    >
-      <div class="w-container">
-        <a
-          href="/"
-          aria-current="page"
-          class="logo-block w-nav-brand w--current"
-          ><img
-            src="https://assets-global.website-files.com/65eea946f020f21a866cad8d/65eea947f020f21a866cae25_Logo.png"
-            alt=""
-            class="logo"
-        /></a>
-        <nav role="navigation" class="nav-menu w-nav-menu">
-          <a
-            href="/"
-            aria-current="page"
-            class="nav-link light w-nav-link w--current"
-            >Intro</a
-          >
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>Homepage</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a href="/homepage.html" class="dropdown-link w-dropdown-link"
-                >Home (Business 1)</a>
-            </nav>
-          </div>
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>About</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a href="about.html" class="dropdown-link w-dropdown-link"
-                >About #1</a>
-            </nav>
-          </div>
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>Features</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a
-                href="feature.html"
-                class="dropdown-link w-dropdown-link"
-                >Features #1</a
-              >
-            </nav>
-          </div>
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>Pricing</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a href="pricing.html" class="dropdown-link w-dropdown-link"
-                >Pricing #1</a
-              >
-            </nav>
-          </div>
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>Blog</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a
-                href="blog.html"
-                class="dropdown-link w-dropdown-link"
-                >Blog Style #1</a
-              >
-            </nav>
-          </div>
-          <div data-delay="0" data-hover="false" class="dropdown w-dropdown">
-            <div class="nav-link dropdown-toggle light w-dropdown-toggle">
-              <div>Contact</div>
-              <div class="dropdown-icon w-icon-dropdown-toggle"></div>
-            </div>
-            <nav class="dropdown-list w-dropdown-list">
-              <a href="contact.html" class="dropdown-link w-dropdown-link"
-                >Contact #1</a
-              >
-            </nav>
-          </div>
-        </nav>
-        <div class="transparant-menu-button w-nav-button">
-          <div class="w-icon-nav-menu"></div>
-        </div>
-      </div>
-    </div>
+    
     <div
       data-autoplay="true"
       data-loop="true"
