@@ -12,7 +12,7 @@
   <div class="container-fluid">
     <div>
     <a class="navbar-brand" style="color: #FFFFFF; margin-top: 0px;" href="#">
-      <img src="logo.png" alt="Logo" style="height: 50px; display: inline-block;" > GeoInfometricts Solutions Corp.
+      <img src="logo.png" alt="Logo" style="height: 50px; display: inline-block;" > Geo Solutions Corp.
       
     </a>
   </div>
