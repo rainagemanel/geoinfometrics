@@ -1,4 +1,4 @@
 <?php include 'header.php'; ?>
-<h2>Hello</h2>
+<h2>Hi</h2>
 </body>
 </html>
