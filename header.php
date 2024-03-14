@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Minimalistic Navbar with Improved Hover Animation</title>
+  <title>Geo Corp.</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="styleheader.css" rel="stylesheet" type="text/css">
 </head>
