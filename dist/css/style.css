@@ -1,0 +1,105 @@
+.navbar-brand .brand-text {
+    font-family: 'Audiowide', cursive !important;
+  }
+  .navbar-nav .nav-link {
+    font-weight: bold; /* Apply bold font to nav items */
+  }
+.bg-image {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Set the height to occupy the full screen */
+    
+}
+.bg-image {
+    background-image: url('../img/background.png');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+.index {
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+  .bg-image h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 74px;
+   
+  }
+
+  .bg-image hr {
+    width: 60%;
+    border: 2px solid white;
+  }
+
+  .bg-image h2 {
+    font-family: 'Audiowide', cursive;
+    color: white;
+    font-size: 44px;
+  }
+
+  .bg-image ul {
+    list-style: none;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+  }
+
+  .bg-image ul li {
+    display: inline;
+    
+    margin: 0 20px;
+    color: white;
+  }
+
+  .bg-image .btn {
+    background-color:  darkgreen;
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+
+  .bg-image .btn:hover {
+    background-color:  darkblue;
+  }
+  .index2 {
+    background-color: #f0f0f0;
+    padding: 0 156px; /* Padding on left and right */
+  }
+  .index2 .row-margin {
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  .index2 .col {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+     /* Media Queries for Responsive Font Sizes */
+     @media (max-width: 768px) {
+        .bg-image h1 {
+          font-size: 28px;
+        }
+        .bg-image h2 {
+          font-size: 20px;
+        }
+        .bg-image ul li {
+          font-size: 16px;
+        }
+        .bg-image .btn {
+          font-size: 14px;
+        }
+      }
