@@ -88,6 +88,98 @@
     padding: 10px;
     text-align: center;
   }
+
+.h2font {
+  font-family: 'Audiowide', cursive !important;
+  font-size: 25px;
+}
+
+@keyframes scroll{
+  0%{
+      transform: translateX();
+  }
+  100%{
+    transform: translateX(calc(-250PX * 7));
+  }
+}
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+.slider .slide-track{
+animation: scroll 40s linear infinite;
+display: flex;
+width: calc(250px * 14);
+/* animation-play-state: paused; */
+}
+.slider .slide{
+  height: 100px;
+  width: 250px;
+}
+
+.gradient-container {
+  
+  background: linear-gradient(to right, #3675D6, #1AE36D); /* Gradient background */
+  padding: 20px; /* Add padding to the container */
+  margin-top: 20px;
+  background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.card-img {
+  height: 50%; /* Occupying 50% height of the card */
+  width: 100%; /* Occupying 100% width of the card */
+  object-fit: cover; /* Ensure the image covers the entire space */
+}
+.btn-green {
+  background-color: #4CAF50; /* Green background color */
+  color: white; /* Text color */
+  padding: 10px 20px; /* Padding */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  text-transform: uppercase; /* Uppercase text */
+  font-weight: bold; /* Bold font weight */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect */
+.btn-green:hover {
+  background-color: #45a049; /* Darker green background color on hover */
+}
+.buttons {
+  align-items: center;
+}
+.card-title {
+  font-family: 'Audiowide', cursive !important;
+}
+
+.line {
+  background-color: #3675D6;
+  height: 4px;
+  width: 30%;
+  margin: 0 auto;
+  
+}
+.card{
+  opacity: 0.8; /* Set initial opacity */
+  transition: opacity 0.3s, transform 0.3s;
+  
+}
+.card:hover {
+  opacity: 1; /* Increase opacity on hover */
+  transform: scale(1.1); /* Increase size on hover */
+}
+.card:not(:hover) {
+  transform: scale(0.9); /* Decrease the size of non-hovered cards */
+}
      /* Media Queries for Responsive Font Sizes */
      @media (max-width: 768px) {
         .bg-image h1 {
@@ -102,4 +194,16 @@
         .bg-image .btn {
           font-size: 14px;
         }
+        /* Adjust height for smaller screens */
+        .gradient-container {
+          height: 60vh; /* 60% of the viewport height */
+        }
       }
+
+.container .row{
+  background: linear-gradient(to right, #3675D6, #1AE36D); /* Gradient background */
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

@@ -6,6 +6,7 @@
     <title>Responsive Minimalistic Navbar with Improved Hover Animation</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="styleheader.css" rel="stylesheet" type="text/css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   </head>
 <body>
 
