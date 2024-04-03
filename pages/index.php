@@ -1,3 +1,4 @@
+<?php include 'head.php'; ?>
 <?php include 'header.php'; ?>
 
 </body>
@@ -112,7 +113,7 @@
       <h2 class="text-center mt-3" style="color: white; font-size: 44px; font-family: 'Audiowide', cursive !important;">What we offer</h2>
       </div>
       <div class="col-md-4">
-  <div class="card" style="margin-left: 170px;">
+  <div class="card">
     <img src="../dist/img/photo3.jpg" class="card-img" alt="Card Image">
     <div class="card-body d-flex flex-column justify-content-between">
       
@@ -146,7 +147,7 @@
   </div>
 </div>
         <div class="col-md-4">
-  <div class="card" style="margin-right: 170px;">
+  <div class="card">
     <img src="../dist/img/photo3.jpg" class="card-img" alt="Card Image">
     <div class="card-body d-flex flex-column justify-content-between">
       
