@@ -7,7 +7,8 @@ This page gets rid of all links and provides the needed markup only.
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Top Navigation</title>
+  <title>Geo Corp</title>
+    <link rel="icon" href="../dist/img/logo.png" type="image/png">
 
   <!-- Google Font: Audiowide -->
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
@@ -30,7 +31,7 @@ This page gets rid of all links and provides the needed markup only.
     <div class="container">
       <a href="../../index3.html" class="navbar-brand">
         <img src="../dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">GEO CORP</span>
+        <span class="brand-text font-weight-light">Geoinfometrics</span>
       </a>
 
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

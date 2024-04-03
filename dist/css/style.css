@@ -168,11 +168,17 @@ width: calc(250px * 14);
   margin: 0 auto;
   
 }
-.card{
+.card {
   opacity: 0.8; /* Set initial opacity */
   transition: opacity 0.3s, transform 0.3s;
+  width: 100%;
+  max-width: 350px; /* Set a maximum width for the cards */
+  margin: auto;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
   
+  margin-right: 18px;
 }
+
 .card:hover {
   opacity: 1; /* Increase opacity on hover */
   transform: scale(1.1); /* Increase size on hover */
@@ -198,12 +204,18 @@ width: calc(250px * 14);
         .gradient-container {
           height: 60vh; /* 60% of the viewport height */
         }
+        .card {
+          max-width: 100%; /* Make the cards take full width on smaller screens */
+        }
       }
 
-.container .row{
+.wrapper2{
   background: linear-gradient(to right, #3675D6, #1AE36D); /* Gradient background */
   width: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  /* padding-left: 18px;
+  padding-right: 18px; */
+  
 }
