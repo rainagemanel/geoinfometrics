@@ -1,9 +1,4 @@
-.navbar-brand .brand-text {
-    font-family: 'Audiowide', cursive !important;
-  }
-  .navbar-nav .nav-link {
-    font-weight: bold; /* Apply bold font to nav items */
-  }
+
 .bg-image {
     background-image: url('../img/background.png');
     background-size: cover;

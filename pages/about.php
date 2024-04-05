@@ -1,6 +1,7 @@
 <?php include 'header.php'; ?>
 </body>
 </nav>
+
 <!DOCTYPE html>
 <html lang="en">
 

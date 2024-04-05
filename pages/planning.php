@@ -211,6 +211,6 @@ when opportunity meets with
 </section>
 
 
-
+<?php include 'footer.php'; ?>
 </body>
 </html>
