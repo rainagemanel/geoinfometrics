@@ -10,11 +10,11 @@
     <!-- AdminLTE CSS -->
     <link rel="stylesheet" href="../dist/css/adminlte.min.css?v=3.2.0">
     <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
-    
 </head>
 
 <body>
 <link rel="stylesheet" href="../dist/css/project.css">
+
     <div class="wrapper">
 
         <section class="content" id="a" style="background-color: #f1f1f1; ">

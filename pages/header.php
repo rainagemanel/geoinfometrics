@@ -45,7 +45,7 @@ This page gets rid of all links and provides the needed markup only.
             <a href="index3.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#" class="nav-link">News</a>
+            <a href="project.php" class="nav-link">News</a>
           </li>
           
           <li class="nav-item dropdown">
@@ -61,13 +61,8 @@ This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <a href="#" class="nav-link">Clients & Partners</a>
           </li>
-          <li class="nav-item dropdown">
-            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">About Us</a>
-            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
-              <li><a href="#" class="dropdown-item">Contact Us</a></li>
-              <li><a href="#" class="dropdown-item">Company</a></li>
-              <li><a href="#" class="dropdown-item">Our Team</a></li>
-              
+          <li class="nav-item">
+          <a href="about.php" class="nav-link">About Us</a>
             </ul>
           </li>
         </ul>
