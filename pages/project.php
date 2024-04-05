@@ -5,20 +5,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Geoinformetrics</title>
-
+  <link rel="icon" href="../dist/img/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
   <!-- AdminLTE CSS -->
   <link rel="stylesheet" href="../dist/css/adminlte.min.css?v=3.2.0">
 
 
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
 
-  <link rel="stylesheet" href="project.css">
+  <link rel="stylesheet" href="../dist/css/project.css">
 
 </head>
 
 <body>
 
   <div class="wrapper">
+
+
+
 
     <!-- <header id="header" class="fixed-top d-flex align-items-center">
       <div class="container d-flex align-items-center">
@@ -48,45 +52,45 @@
         </div>
       </div>
     </header> -->
-    <section class="content" id="projects" style=" background-image: url('d3.jpg'); background-size: cover; ">
+    <section class="content" id="projects" style=" background-image: url('../dist/img/d3.jpg'); background-size: cover; ">
       <div class="content-header">
         <h1>P R O J E C T S</h1>
       </div>
       <div class="container-fluid">
         <div id="carousel-wrapper">
-              <!-- /.card-header -->
-              
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img class="d-block w-100" src="../dist/img/d1.jpg" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="../dist/img/d2.jpg" alt="Second slide">
-                    </div>
-                    <div class="carousel-item">
-                      <img class="d-block w-100" src="../dist/img/d3.jpg" alt="Third slide">
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-custom-icon" aria-hidden="true">
-                      <i class="fas fa-chevron-left"></i>
-                    </span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-custom-icon" aria-hidden="true">
-                      <i class="fas fa-chevron-right"></i>
-                    </span>
-                    <span class="sr-only">Next</span>
-                  </a>
-                </div>
-              
+          <!-- /.card-header -->
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../dist/img/d1.jpg" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img src="../dist/img/d2.jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img src="../dist/img/d3.jpg" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-custom-icon" aria-hidden="true">
+                <i class="fas fa-chevron-left"></i>
+              </span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-custom-icon" aria-hidden="true">
+                <i class="fas fa-chevron-right"></i>
+              </span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
         </div>
 
         <h1 style="text-align:left; ">Our Projects</h1>
@@ -723,7 +727,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="212121.png">
+                      <img src="../dist/img/212121.png">
                       <p class="card-title">project 1</p>
                     </div>
                   </div>
@@ -731,7 +735,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -739,7 +743,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -747,7 +751,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -755,7 +759,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -763,7 +767,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -771,7 +775,7 @@
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="12121.png">
+                      <img src="../dist/img/12121.png">
                       <p class="card-title">project 2</p>
                     </div>
                   </div>
@@ -844,22 +848,22 @@
             </div>
           </div>
 
-        
 
-        <footer>
-        <div class="container-fluid">
-          <div class="footer-container ">
-            <div class="row ">
-              <div class="col-md-6">
-                <p>© 2021 All rights reserved.</p>
-              </div>
-              <div class="col-md-6">
-                <p class="float-right">Terms and Conditions</p>
+
+          <footer>
+            <div class="container-fluid">
+              <div class="footer-container ">
+                <div class="row ">
+                  <div class="col-md-6">
+                    <p>© 2021 All rights reserved.</p>
+                  </div>
+                  <div class="col-md-6">
+                    <p class="float-right">Terms and Conditions</p>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        </footer>
+          </footer>
     </section>
 
   </div>

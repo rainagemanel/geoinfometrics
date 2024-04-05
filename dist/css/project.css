@@ -1,0 +1,165 @@
+h1 {
+  font-family: "Saira Condensed", sans-serif;
+}
+
+section {
+  padding: 20px;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content-header {
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Saira Condensed", sans-serif;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+#carousel-wrapper {
+  height: 420px;
+  width: 1000px;
+
+  min-width: 100px;
+  min-height: 100px; /* Adjust as needed */
+  margin: 0 auto; /* Center the wrapper horizontally */
+  overflow: hidden; /* Hide overflowing content */
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+#carousel-wrapper .content-carousel {
+  transition: transform 0.5s ease;
+}
+#carousel-wrapper .carousel-inner {
+  flex: 0 0 auto;
+  width: 100%;
+  border-radius: 10px;
+}
+
+#carousel-wrapper .carousel-inner img {
+  overflow: hidden;
+  height: 400px;
+  width: 1000px;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+#project-row {
+  max-height: 120px;
+  display: flex;
+}
+
+#projects #project-row .card {
+  height: 125px;
+  width: 100px;
+  background-color: #ffffff;
+}
+
+#project-row .card,
+#project-row img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#project-row img {
+  height: 100px;
+  width: 100px;
+}
+
+#news {
+  background-color: #f1f1f1;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#news .card1 {
+  background-color: #ffffff;
+  width: 700px;
+  height: 300px;
+  max-height: 300px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#clients {
+  background-color: #f1f1f1;
+}
+#clients .card-wrapper {
+  background-color: #007bff;
+  height: 400px;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#clients .card-wrapper .col {
+  width: 100px;
+  height: 110px;
+}
+
+#clients .card {
+  background-color: #ffffff;
+  width: 100px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#clients .card .card-body p {
+  font-size: 15px;
+}
+#clients .card .card-body img {
+  width: 50px;
+  margin-right: 20px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#clients .footer-container {
+  margin-top: 20px;
+  background-color: #ececee;
+  height: 180px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ABOUTTT CSS */
+
+#team {
+  background: linear-gradient(to right, #007bff, #00b318);
+}
+
+#team .profile-wrapper {
+  height: 490px;
+  width: 320px;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#team .profile-carousel-wrapper img {
+  height: 300px;
+  
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#team .profile-carousel-wrapper {
+  height: 470px;
+  width: 300px;
+  
+  border-radius: 10px;
+}
+#team .profile-carousel-wrapper .card-body{
+    height: 170px;
+  }
+
+#team .profile-carousel-wrapper .card {
+  border-radius: 10px;
+}
