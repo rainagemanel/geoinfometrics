@@ -21,6 +21,4 @@ This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <link rel="stylesheet" href="../dist/css/style.css">
 
-  <!-- Custom styles -->
-  
 </head>

@@ -22,7 +22,14 @@ This page gets rid of all links and provides the needed markup only.
   <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <!-- <link rel="stylesheet" href="../dist/css/style.css"> -->
   <!-- Custom styles -->
-  
+  <style>
+    .navbar-brand .brand-text {
+  font-family: 'Audiowide', cursive !important;
+}
+.navbar-nav .nav-link {
+  font-weight: bold; /* Apply bold font to nav items */
+}
+</style>
 </head>
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
@@ -42,7 +49,7 @@ This page gets rid of all links and provides the needed markup only.
         <!-- Left navbar links -->
         <ul class="navbar-nav ml-auto"> <!-- Utilize ml-auto class to push the dropdown to the right -->
           <li class="nav-item">
-            <a href="index3.html" class="nav-link">Home</a>
+            <a href="index.php" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
             <a href="project.php" class="nav-link">News</a>
@@ -52,8 +59,8 @@ This page gets rid of all links and provides the needed markup only.
             <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
             <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
               <li><a href="#" class="dropdown-item">Geographic Information System</a></li>
-              <li><a href="#" class="dropdown-item">Management Information System</a></li>
-              <li><a href="#" class="dropdown-item">Planning</a></li>
+              <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
+              <li><a href="planning.php" class="dropdown-item">Planning</a></li>
               <!-- <li class="dropdown-divider"></li> -->
               
             </ul>
