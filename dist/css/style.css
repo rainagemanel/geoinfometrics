@@ -165,6 +165,7 @@ width: calc(250px * 14);
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
+  padding: 5px;
   font-weight: bold;
   transition: background-color 0.3s;
 }
@@ -187,8 +188,8 @@ width: calc(250px * 14);
 
 .card2 {
   width: 70%;
-  border-radius: 10px;
-  border: 2px solid #004e3c;
+  /* border-radius: 10px;
+  border: 1px solid rgb(16, 37, 34); */
   margin: 15px;
   transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
 }
@@ -197,7 +198,7 @@ width: calc(250px * 14);
   box-shadow: 0px 0px 15px rgba(0, 0, 0.2, 0.2); /* Add shadow on hover */
 }
 /* Media Queries for Responsiveness */
-@media (max-width: 1105px) {
+@media (max-width: 1181px) {
   .card {
     border-radius: 10px;
     overflow: hidden;
@@ -234,6 +235,12 @@ width: calc(250px * 14);
     text-align: center;
     align-items: center;
   }
+  .card {
+    /* Increase card size */
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust maximum width as needed */
+  }
   .bg-image h1 {
     font-size: 28px;
   }
@@ -246,15 +253,21 @@ width: calc(250px * 14);
   .bg-image .btn {
     font-size: 14px;
   }
+
   .card2 {
     width: 100%;
-    border-radius: 10px;
-    border: 2px solid #1AE36D;
+    /* border-radius: 10px;
+    border: 1px solid rgb(16, 37, 34); */
     margin: 15px;
     transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
+    
   }
   
   .card2:hover {
     box-shadow: 0px 0px 15px rgba(0, 0, 0.2, 0.2); /* Add shadow on hover */
+  }
+  .h2 text-center {
+    font-size: 24px;
+   
   }
 }

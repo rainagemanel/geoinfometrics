@@ -107,12 +107,13 @@
     </div>
         </div>
         <br>
-        <div class="wrapper2" >
-    <div class="row" style="text-align: center !important;">
+<div class="wrapper2">
+  <div class="container">
+    <div class="row">
       <div class="col-md-12 text-center py-4">
         <h2 class="text-center mt-3" style="color: white; font-size: 44px; font-family: 'Audiowide', cursive !important;">What we offer</h2>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <img src="../dist/img/photo3.jpg" class="card-img" alt="Card Image">
           <div class="card-body">
@@ -127,7 +128,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <img src="../dist/img/photo3.jpg" class="card-img" alt="Card Image">
           <div class="card-body">
@@ -142,7 +143,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-lg-4 col-md-6">
         <div class="card">
           <img src="../dist/img/photo3.jpg" class="card-img" alt="Card Image">
           <div class="card-body">
@@ -162,6 +163,14 @@
       <button class="btn-green">Discover more...</button>
     </div>
   </div>
-  <?php include 'footer.php'; ?>
+</div>
+<?php include 'footer.php'; ?>
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
+ 
+
