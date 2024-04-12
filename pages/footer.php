@@ -1,5 +1,5 @@
 <?php include 'head.php'; ?>
-<body>
+
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->

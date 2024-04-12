@@ -29,6 +29,30 @@ This page gets rid of all links and provides the needed markup only.
 .navbar-nav .nav-link {
   font-weight: bold; /* Apply bold font to nav items */
 }
+.dropdown-menu {
+  display: none; /* Hide the dropdown menu by default */
+  opacity: 0; /* Initially set opacity to 0 */
+  transition: opacity 0.3s ease; /* Add transition for smooth opacity change */
+  animation-name: dropdownAnimation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards; /* Keep the last keyframe state after animation */
+  animation-timing-function: ease;
+  transform-origin: top; /* Set the transform origin to the top */
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block; /* Display the dropdown menu on hover */
+  opacity: 1; /* Set opacity to 1 to make the menu visible */
+}
+
+@keyframes dropdownAnimation {
+  from {
+    transform: scaleY(0); /* Scale from 0 height */
+  }
+  to {
+    transform: scaleY(1); /* Scale to full height */
+  }
+}
 </style>
 </head>
 <body class="hold-transition layout-top-nav">
@@ -54,17 +78,17 @@ This page gets rid of all links and provides the needed markup only.
           <li class="nav-item">
             <a href="project.php" class="nav-link">News</a>
           </li>
-          
           <li class="nav-item dropdown">
-            <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
-            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
-              <li><a href="#" class="dropdown-item">Geographic Information System</a></li>
-              <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
-              <li><a href="planning.php" class="dropdown-item">Planning</a></li>
-              <!-- <li class="dropdown-divider"></li> -->
-              
-            </ul>
-          </li>
+  <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
+  <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
+    <li><a href="geo.php" class="dropdown-item">Geographic Information System</a></li>
+    <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
+    <li><a href="planning.php" class="dropdown-item">Planning</a></li>
+    <!-- <li class="dropdown-divider"></li> -->
+  </ul>
+</li>
+
+
           <li class="nav-item">
             <a href="contact.php" class="nav-link">Contact us</a>
           </li>
@@ -86,4 +110,9 @@ This page gets rid of all links and provides the needed markup only.
 <script src="../dist/js/adminlte.min.js"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="../dist/js/demo.js"></script>
+<!-- Bootstrap JS and jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
+</body>
+</nav>

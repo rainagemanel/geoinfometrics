@@ -1,9 +1,6 @@
 <?php include 'head.php'; ?>
 <?php include 'header.php'; ?>
 
-</body>
-</nav>
-
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
   <div class="bg-image">
@@ -123,7 +120,8 @@
             <p class="card-text text-justify">A SEC registered company boasting over a decade of expertise in
               geomatics and its applications. Renowned as a pioneer in advocating open-source software within the Philippine geomatics domain.</p>
             <div class="text-center">
-              <button class="btn-green mt-4">Learn More</button>
+            <a href="geo.php">
+              <button class="btn-green mt-4">Learn More</button> </a>
             </div>
           </div>
         </div>
@@ -138,7 +136,8 @@
             <p class="card-text text-justify">The Geoinfometrics Solutions Corp. is a SEC registered company with more
               than a decade of experience in the field of geomatics and its application.</p>
             <div class="text-center">
-              <button class="btn-green mt-4">Learn More</button>
+            <a href="management.php">
+              <button class="btn-green mt-4">Learn More</button></a>
             </div>
           </div>
         </div>
@@ -153,7 +152,8 @@
             <p class="card-text text-justify">A SEC registered company boasting over a decade of expertise in geomatics and its applications.
               Renowned as a pioneer in advocating open-source software within the Philippine geomatics domain.</p>
             <div class="text-center">
-              <button class="btn-green mt-4">Learn More</button>
+            <a href="planning.php">
+              <button class="btn-green mt-4">Learn More</button></a>
             </div>
           </div>
         </div>
@@ -163,12 +163,3 @@
   </div>
 </div>
 <?php include 'footer.php'; ?>
-<!-- Bootstrap JS and jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-</body>
-</html>
- 
-
