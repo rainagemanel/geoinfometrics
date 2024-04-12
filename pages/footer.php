@@ -30,7 +30,12 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-
+  <div class="text-center mx-auto mt-5 mb-5">
+    <a href="contact.php" class="project-link">
+        Start a Project
+    </a>
+</div>
+<hr>
   <section class="">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->

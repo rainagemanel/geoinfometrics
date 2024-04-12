@@ -48,6 +48,7 @@
         </div>
     </div>
 </section>
+<br>
 <div class="col-md-12 text-center py-4">
         <h2 class="text-center mt-3" style="font-family: 'Audiowide', cursive !important;">Where to find us?</h2>
       </div>
@@ -62,7 +63,10 @@
     </div>
   </div>
 </section>
-
-<?php include 'footer.php'; ?>
+<br>
+<div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2024 Copyright:
+    <a class="text-reset fw-bold" href="https://www.geoinfometrics.com/geoweb/">Geoinfometrics Solutions Corp.</a>
+  </div>
 </body>
 </html>

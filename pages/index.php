@@ -17,7 +17,7 @@
       <li>PLANNING</li>
     </ul> -->
     <br><br><br>
-    <a href="#" class="btn">Contact Us Today!</a>
+    <a href="contact.php" class="btn">Contact Us Today!</a>
     </div>
   </div>
 
@@ -159,9 +159,7 @@
         </div>
       </div>
     </div>
-    <div class="text-center mx-auto mt-5 mb-5">
-      <button class="btn-green">Discover more...</button>
-    </div>
+    
   </div>
 </div>
 <?php include 'footer.php'; ?>
