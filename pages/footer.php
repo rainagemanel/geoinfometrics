@@ -1,5 +1,5 @@
 <?php include 'head.php'; ?>
-<body>
+
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->
@@ -30,7 +30,12 @@
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-
+  <div class="text-center mx-auto mt-5 mb-5">
+    <a href="contact.php" class="project-link">
+        Start a Project
+    </a>
+</div>
+<hr>
   <section class="">
     <div class="container text-center text-md-start mt-5">
       <!-- Grid row -->
@@ -88,9 +93,9 @@
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-3">
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
           <!-- Links -->
-          <h6 class="text-uppercase text-left fw-bold mb-4 font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase text-left font-weight-bold mb-3">Contact</h6>
           <p class="text-left"><i class="fas fa-home me-3 mr-2"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030</p>
           <p class="text-left">
             <i class="fas fa-envelope me-3 mr-2"></i>

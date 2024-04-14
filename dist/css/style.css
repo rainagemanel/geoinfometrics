@@ -21,6 +21,7 @@
 .index {
     margin-bottom: 150px;
     margin-top: 20px;
+    overflow-x: hidden;
 }
   .bg-image h1 {
     font-family: 'Source Sans Pro', sans-serif;
@@ -65,11 +66,12 @@
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
-    transition: background-color 0.3s;
+    transition: font-size 0.5s, background-color 0.5s;
   }
 
   .bg-image .btn:hover {
     background-color:  darkblue;
+    font-size: larger;
   }
   .index2 {
     background-color: #f0f0f0;
@@ -115,100 +117,171 @@ width: calc(250px * 14);
   width: 250px;
 }
 
-.gradient-container {
-  
+.wrapper2 {
+  padding: 20px;
   background: linear-gradient(to right, #3675D6, #1AE36D); /* Gradient background */
-  padding: 20px; /* Add padding to the container */
-  margin-top: 20px;
-  background-size: cover;
-    background-position: center;
-    height: 90vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-}
-.card-img {
-  height: 50%; /* Occupying 50% height of the card */
-  width: 100%; /* Occupying 100% width of the card */
-  object-fit: cover; /* Ensure the image covers the entire space */
-}
-.btn-green {
-  background-color: #4CAF50; /* Green background color */
-  color: white; /* Text color */
-  padding: 10px 20px; /* Padding */
-  border: none; /* No border */
-  border-radius: 5px; /* Rounded corners */
-  text-transform: uppercase; /* Uppercase text */
-  font-weight: bold; /* Bold font weight */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
-}
-
-/* Hover effect */
-.btn-green:hover {
-  background-color: #45a049; /* Darker green background color on hover */
-}
-.buttons {
   align-items: center;
+  /* width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
 }
-.card-title {
-  font-family: 'Audiowide', cursive !important;
+.project-link {
+  font-weight: bold;
+  font-size: 44px;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.5s, font-size 0.5s;
+  padding: 20px;
 }
 
-.line {
-  background-color: #3675D6;
-  height: 4px;
-  width: 30%;
-  margin: 0 auto;
-  
+.project-link:hover {
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  opacity: 0.8; /* Increase opacity on hover */
+  font-size: 54px;
 }
 .card {
-  opacity: 0.8; /* Set initial opacity */
-  transition: opacity 0.3s, transform 0.3s;
-  width: 100%;
-  max-width: 350px; /* Set a maximum width for the cards */
-  margin: auto;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  width: 350px; /* Fixed width for all cards */
+  height: 600px;
 }
 
 .card:hover {
-  opacity: 1; /* Increase opacity on hover */
-  transform: scale(1.1); /* Increase size on hover */
+  transform: scale(1.05);
 }
-.card:not(:hover) {
-  transform: scale(0.9); /* Decrease the size of non-hovered cards */
-}
-     /* Media Queries for Responsive Font Sizes */
-     @media (max-width: 768px) {
-        .bg-image h1 {
-          font-size: 28px;
-        }
-        .bg-image h2 {
-          font-size: 20px;
-        }
-        .bg-image ul li {
-          font-size: 16px;
-        }
-        .bg-image .btn {
-          font-size: 14px;
-        }
-        /* Adjust height for smaller screens */
-        .gradient-container {
-          height: 60vh; /* 60% of the viewport height */
-        }
-        .card {
-          max-width: 100%; /* Make the cards take full width on smaller screens */
-        }
-      }
 
-.wrapper2{
-  background: linear-gradient(to right, #3675D6, #1AE36D); /* Gradient background */
-  width: auto;
+.card-img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.btn-green {
+  background-color: #4CAF50;
+  color: white;
+  /* padding: 10px 20px; */
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-green:hover {
+  background-color: #45a049;
+}
+.col-md-4 {
+  text-align: center;
+  padding: 5px;
+}
+
+
+.card2-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  /* padding-left: 18px;
-  padding-right: 18px; */
+  align-items: center; /* Adjust height as needed */
+
+}
+
+.card2 {
+  width: 70%;
+  /* border-radius: 10px;
+  border: 1px solid rgb(16, 37, 34); */
+  margin: 15px;
+  transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
+}
+
+.card2:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0.2, 0.2); /* Add shadow on hover */
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 1181px) {
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    width: 250px; /* Fixed width for all cards */
+    height: 400px;
+  }
+  .card-body, .card-title {
+    font-size: 15px;
+    text-align: center;
+  }
+  .card-text {
+    font-size: 12px;
+  }
+  .bg-image h1 {
+    font-size: 28px;
+  }
+  .bg-image h2 {
+    font-size: 20px;
+  }
+  .bg-image ul li {
+    font-size: 16px;
+  }
+  .bg-image .btn {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 5px;
+    text-align: center;
+    align-items: center;
+  }
+  .card {
+    /* Increase card size */
+    width: 100%;
+    height: auto;
+    max-width: 400px; /* Adjust maximum width as needed */
+  }
+  .bg-image h1 {
+    font-size: 28px;
+  }
+  .bg-image h2 {
+    font-size: 20px;
+  }
+  .bg-image ul li {
+    font-size: 16px;
+  }
+  .bg-image .btn {
+    font-size: 14px;
+  }
+
+  .card2 {
+    width: 100%;
+    /* border-radius: 10px;
+    border: 1px solid rgb(16, 37, 34); */
+    margin: 15px;
+    transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
+    
+  }
   
+  .card2:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0.2, 0.2); /* Add shadow on hover */
+  }
+  .h2 text-center {
+    font-size: 24px;
+   
+  }
 }
