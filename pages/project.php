@@ -64,12 +64,12 @@
 
 
 
-    <section class="content" id="projects" style=" background-image: url('../dist/img/d3.jpg'); background-size: cover; ">
+    <section class="content" id="projects" style="background: radial-gradient(circle,  #58F418, #093DF6);">
       <div class="spacer">
 
       </div>
       <div class="content-header">
-        <h1>PROJECTS</h1>
+        <h1 style="color:#f1f1f1;">PROJECTS</h1>
       </div>
       <div class="container-fluid">
         <div id="carousel-wrapper">
@@ -108,7 +108,7 @@
 
         </div>
 
-        <h2 style="text-align:left; ">Our Projects</h2>
+        <h2 style="text-align:left; color:#f1f1f1; margin-top: 10px; margin-bottom: 0;">Our Projects</h2>
 
         <div id="project-row">
           <div class="row">
@@ -116,7 +116,7 @@
               <div class="card">
                 <img src="../dist/img/d1.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@
               <div class="card">
                 <img src="../dist/img/d2.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
@@ -132,7 +132,7 @@
               <div class="card">
                 <img src="../dist/img/d3.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
@@ -140,7 +140,7 @@
               <div class="card">
                 <img src="../dist/img/d1.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
@@ -148,7 +148,7 @@
               <div class="card">
                 <img src="../dist/img/d2.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
@@ -156,13 +156,14 @@
               <div class="card">
                 <img src="../dist/img/d3.jpg">
                 <div class="card-body">
-                  <h2 class="card-title">Project 1</h2>
+                  <p>Project 1</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </section>
 
     <section class="content" id="news">
@@ -173,14 +174,13 @@
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">
-            <div class="card1 card-success ">
-              <div class="card-header ">
+          <div class="col-md-6 ">
+            <div class="card1 card-primary">
+              <div class="card-header">
                 <h2 class="card-title">Project Status</h2>
               </div>
-              <!-- /.card-header -->
-              <div class="card-body ">
-                <table class="table table-striped">
+              <div class="card-body table-responsive p-0">
+                <table class="table table-head-fixed text-nowrap table-striped">
                   <thead>
                     <tr>
                       <th style="width: 10px">#</th>
@@ -270,31 +270,41 @@
                       </td>
                       <td><span class="badge bg-success">90%</span></td>
                     </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>Fix and squish bugs</td>
+                      <td>
+                        <div class="progress progress-xs progress-striped active">
+                          <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-success">90%</span></td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>Fix and squish bugs</td>
+                      <td>
+                        <div class="progress progress-xs progress-striped active">
+                          <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-success">90%</span></td>
+                    </tr>
+                    <tr>
+                      <td>4.</td>
+                      <td>Fix and squish bugs</td>
+                      <td>
+                        <div class="progress progress-xs progress-striped active">
+                          <div class="progress-bar bg-success" style="width: 90%"></div>
+                        </div>
+                      </td>
+                      <td><span class="badge bg-success">90%</span></td>
+                    </tr>
                   </tbody>
                 </table>
-                <div class="content-header">
-                  <ul class="pagination justify-content-end">
-                    <li class="page-item disabled">
-                      <a class="page-link" href="#" tabindex="-1">Previous</a>
-                    </li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item">
-                      <a class="page-link" href="#">Next</a>
-                    </li>
-                  </ul>
-                </div>
               </div>
-
-              <!-- /.card-body -->
             </div>
-            <!-- /.card-body -->
-
           </div>
-
-
-
 
           <div class="col-md-6">
             <div class="card2 card-primary">
@@ -312,7 +322,7 @@
                 </div>
               </div>
               <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" style="height: 250px;">
+              <div class="card-body table-responsive p-0" style="height: 230px;">
                 <table class="table table-head-fixed text-nowrap table-striped">
                   <thead>
                     <tr>
@@ -451,20 +461,20 @@
     <section class="content" id="clients">
       <div class="spacer"></div>
       <div class="content-header ">
-        <h1>OUR CLIENTELE</h1>
+        <h1 class="text-white">OUR CLIENTELE</h1>
       </div>
 
       <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-md-12">
 
             <div class="card-wrapper">
               <div class="row">
                 <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <img src="../dist/img/212121.png">
-                      <p class="card-title">project 1</p>
+                      <img src="../dist/img/222.jpg">
+                      <p class="card-title">Laurel Batangas</p>
                     </div>
                   </div>
                 </div>
@@ -472,70 +482,7 @@
                   <div class="card">
                     <div class="card-body">
                       <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-sm-6">
-            <div class="card-wrapper">
-              <div class="row">
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/212121.png">
-                      <p class="card-title">project 1</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card">
-                    <div class="card-body">
-                      <img src="../dist/img/12121.png">
-                      <p class="card-title">project 2</p>
+                      <p class="card-title">Buanavista Quezon</p>
                     </div>
                   </div>
                 </div>
@@ -585,107 +532,107 @@
 
         </div>
       </div>
-
-
-      <div class="footer">
-        <div class="footer-body" style=" position: absolute; width:100%; height: 30vh; left:0; bottom: 0; background-color: #ffffff; ">
-          <div class="container-fluid">
-            <div class="row m-3">
-              <div class="col-sm-12">
-                <div class="footer-wrapper">
-                  <div class="row">
-                    <div class="col-md-3" style="text-align: center;">
-                      <img src="../dist/img/logo.png" style="height: 100px; border-radius: 50%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); margin-bottom: 5px;">
-                      <h3>
-                        GEOINFOMETRICS
-                      </h3>
-                      <p class="mt-2 text-center">
-                        Translating Knowledge to Service.
-                      </p>
-                    </div>
-                    <div class="col-md-3">
-                      <h2>
-                        Services
-                      </h2>
-                      <ul style="list-style-type: none; padding: 0;">
-                        <li>
-                          <a href="#!">Management Information System (MIS)</a>
-                        </li>
-                        <li>
-                          <a href="#!">Planning</a>
-                        </li>
-                        <li>
-                          <a href="#!">Geographic Information System (GIS)</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-2">
-                      <h2>
-                        Projects
-                      </h2>
-                      <ul style="list-style-type: none; padding: 0;">
-                        <li>
-                          <a href="#!">News</a>
-                        </li>
-                        <li>
-                          <a href="#!">Clients</a>
-                        </li>
-                        <li>
-                          <a href="#!">Job Vacancies</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-2">
-                      <h2>
-                        About Us
-                      </h2>
-                      <ul style="list-style-type: none; padding: 0;">
-                        <li>
-                          <a href="#!">Company Profile</a>
-                        </li>
-                        <li>
-                          <a href="#!">Our Team</a>
-                        </li>
-                        <li>
-                          <a href="#!">Start a project</a>
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-md-2">
-                      <h2>CONTACT US</h2>
-                      <ul style="list-style-type: none; padding: 0;">
-                        <li>
-                          <a href="#">
-                            <i class="fas fa-phone"></i> GLOBE: (049) 310 9451
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#">
-                            <i class="fas fa-home"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030
-                          </a>
-                        </li>
-                        <li>
-                          <a href="mailto:info@example.com">
-                            <i class="fas fa-envelope"></i> info@example.com
-                          </a>
-                        </li>
-                        <li>
-                          <a href="https://www.facebook.com/geoinfometrics">
-                            <i class="fab fa-facebook-square"></i> fb.com/geoinfometrics
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
     </section>
+
+    <div class="footer">
+      <div class="footer-body">
+        <div class="spacer"></div>
+        <div class="container-fluid">
+          <div class="row m-3">
+            <div class="col-sm-12">
+              <div class="footer-wrapper">
+                <div class="row">
+                  <div class="col-md-3" style="text-align: center;">
+                    <img src="../dist/img/logo.png">
+                    <h3>
+                      GEOINFOMETRICS SOLUTIONS CORP.
+                    </h3>
+                    <p class="mt-2 text-center">
+                      Translating Knowledge to Service.
+                    </p>
+                  </div>
+                  <div class="col-md-3">
+                    <h2>
+                      Services
+                    </h2>
+                    <ul style="list-style-type: none; padding: 0;">
+                      <li>
+                        <a href="management.php">Management Information System (MIS)</a>
+                      </li>
+                      <li>
+                        <a href="planning.php">Planning</a>
+                      </li>
+                      <li>
+                        <a href="geo.php">Geographic Information System (GIS)</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <h2>
+                      Projects
+                    </h2>
+                    <ul style="list-style-type: none; padding: 0;">
+                      <li>
+                        <a href="project.php#news">News</a>
+                      </li>
+                      <li>
+                        <a href="project.php#news">Job Vacancies</a>
+                      </li>
+                      <li>
+                        <a href="project.php#clients">Clients</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <h2>
+                      About Us
+                    </h2>
+                    <ul style="list-style-type: none; padding: 0;">
+                      <li>
+                        <a href="about.php#company">Company Profile</a>
+                      </li>
+                      <li>
+                        <a href="about.php#team">Our Team</a>
+                      </li>
+                      <li>
+                        <a href="about.php#contact">Start a project</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-md-2">
+                    <h2>CONTACT US</h2>
+                    <ul style="list-style-type: none; padding: 0;">
+                      <li>
+                        <a href="#">
+                          <i class="fas fa-phone"></i> GLOBE: (049) 310 9451
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">
+                          <i class="fas fa-home"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030
+                        </a>
+                      </li>
+                      <li>
+                        <a href="mailto:info@example.com">
+                          <i class="fas fa-envelope"></i> info@example.com
+                        </a>
+                      </li>
+                      <li>
+                        <a href="https://www.facebook.com/geoinfometrics">
+                          <i class="fab fa-facebook-square"></i> fb.com/geoinfometrics
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
 
   </div>
 

@@ -12,7 +12,7 @@ nav .navbar-brand img {
 }
 nav .navbar-brand {
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
   align-items: center;
   margin-left: 60px;
 }
@@ -31,13 +31,6 @@ nav .navbar-brand {
   align-items: center;
 }
 
-@media (max-width: 480px) {
-  nav .navbar-brand h1 {
-    font-size: 20px;
-    margin-left: 10px;
-  }
-}
-
 h1 {
   font-family: "Barlow Condensed", Arial, sans-serif;
   line-height: 1.3;
@@ -51,7 +44,6 @@ h1 {
 h2 {
   font-family: "Montserrat", Arial, sans-serif;
   font-size: 20px;
-  font-weight: 600;
 }
 h3 {
   font-family: "Audiowide", cursive !important;
@@ -66,24 +58,40 @@ p {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #696969; 
-
+  color: #696969;
+}
+.card {
+  background-color: #ffffff;
 }
 
-.footer .footer-wrapper a{
+.footer .footer-wrapper a {
   font-family: "Montserrat", Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
-  color: black;
-  
+  color: #696969;
+}
+.footer-body {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+  background-color: #e8e8eb;
+  position: absolute;
+  width: 100%;
+  height: 30vh;
+  left: 0;
+  bottom: 0;
+}
+.footer .footer-wrapper img {
+  height: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 5px;
+  background-color: #ffffff;
 }
 
-
-nav .btn{
-  background-color: #4CAF50;
+nav .btn {
+  background-color: #4caf50;
   color: white;
 }
 
@@ -91,9 +99,9 @@ section {
   padding: 20px;
   height: 100vh;
   overflow: hidden;
-  background-color: #f1f1f1;  
-} 
-.spacer{
+  background-color: #f1f1f1;
+}
+.spacer {
   height: 5%;
 }
 
@@ -107,38 +115,35 @@ section {
 }
 
 #carousel-wrapper {
-  margin: 0 auto; /* Center the wrapper horizontally */
-  overflow: hidden; /* Hide overflowing content */
-
-width: 50%;
-
+  margin: 0 auto; 
+  overflow: hidden;
+  width: 50%;
   background-color: #f1f1f1;
   padding: 10px;
   border-radius: 10px;
 }
 
-
 #carousel-wrapper .content-carousel {
   transition: transform 0.5s ease;
 }
 #carousel-wrapper .carousel-inner {
-  overflow: hidden; /* Hide overflowing content */
+  overflow: hidden;
   border-radius: 10px;
 }
 
 #carousel-wrapper .carousel-inner img {
-  max-width: 100%; /* Limit the image width to the width of the wrapper */
-  max-height: 100%; /* Limit the image height to the height of the wrapper */
-  display: block; /* Ensure the image is displayed as a block element */
+  max-width: 100%;
+  max-height: 100%; 
+  display: block;
   margin: auto;
 }
 
 #project-row {
-  max-height: 120px;
+  height: 120px;
   display: flex;
 }
 
-#projects #project-row .card {
+#project-row .card {
   height: 125px;
   width: 100px;
   background-color: #ffffff;
@@ -155,15 +160,19 @@ width: 50%;
   width: 100px;
 }
 
-#news {
-  background-color: #f1f1f1;
+#project-row .card .card-body {
+  height: 40px;
+  width: 100px;
+
+  padding: 5px;
+  text-align: center;
 }
-.card {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+
 #news .card1 {
   background-color: #ffffff;
-  width: 100%;
+  width: auto;
+  height: 580px;
+  overflow: auto;
   margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -171,37 +180,36 @@ width: 50%;
 #news .card2 {
   background-color: #ffffff;
   width: auto;
-
+  overflow: auto;
   margin-bottom: 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #clients {
-  background-color: #f1f1f1;
+  background: linear-gradient(to right, #3675d6, #1ae36d);
 }
 #clients .card-wrapper {
   background-color: #ffffff;
-
   display: flex;
+  height: 50vh;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#clients .card-wrapper .col {
-  width: 100px;
-  height: 110px;
-}
 
 #clients .card {
   background-color: #ffffff;
-  width: 100px;
-
+  width: 90px;
+  height: 100px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
 }
 #clients .card .card-body p {
-  font-size: 15px;
+  font-size: 12px;
+  margin-top: 10px;
+  line-height: 1;
 }
 #clients .card .card-body img {
   width: 50px;
@@ -214,55 +222,267 @@ width: 50%;
 
 
 /* ABOUTTT CSS */
-
-#company .card-inner{
+#company {
+  background: linear-gradient(to right, #1ae36d, #3675d6);
+}
+#company .card .row1 {
   display: flex;
   flex-direction: row;
 }
-#company .card-inner .card-body img{
+#company .card .row1 img {
+  width: 60%;
+  border-radius: 50%;
+}
+#company .card {
+  padding: 10px;
+}
+#company #card1 {
   width: 100%;
-
+  height: 250px;
 }
-
-
-
+#company .card-body {
+  padding: 0px;
+}
+#company #card2 {
+  width: 100%;
+  height: 200px;
+}
 #team {
-  /* background-image: url('../img/d1.jpg'); */
-  background: linear-gradient(to right, #007bff, #00b318);
-}
-
-#team .profile-wrapper {
-  height: 490px;
-  width: 320px;
   background-color: #f1f1f1;
+}
+#contact {
+  background: linear-gradient(to right, #3675d6,#1ae36d);
+}
+#team .profile-wrapper {
+  height: 465px;
+  width: 300px;
+  background-color:#ffffff;
   padding: 10px;
   border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
-
+#team .profile-wrapper .card{
+margin: 5px;
+}
+#team .card-header  {
+  height: 55px;
+}
+#team .card-header h2 {
+  font-size: 15px;
+  margin-bottom: 0;
+}
 #team .profile-carousel-wrapper img {
   height: 300px;
   /* border-top-left-radius: 10px;
   border-top-right-radius: 10px; */
 }
 #team .profile-carousel-wrapper {
-  height: 470px;
-  width: 300px;
-  border-radius: 10px;
-}
-#team .profile-carousel-wrapper .card-body {
   height: 100%;
-}
-
-#team .profile-carousel-wrapper .card {
+  width: 100%;
   border-radius: 10px;
+  background-color: #e8e8eb;
+}
+#team .row2 {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  margin-left: 130px;
+}
+#team h2,
+#team p {
+  text-align: center;
+}
+#contact .card {
+  background-color: #ffffff;
+  height: 360px;
 }
 
-.card{
-  background-color: #D7D7D8;
+#contact .row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
-#contact .card{
-  background-color: #ffffff;
+#contact .row3 .btn {
+  float: right;
+  margin-right: 10px;
+  width: 100px;
 }
-.footer{
-  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+
+@media (max-width: 480px) {
+  nav .navbar-brand h1 {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+  #carousel-wrapper {
+    width: 100%;
+    height: 40vh;
+  }
+  #carousel-wrapper .carousel-inner {
+    height: 40vh;
+    width: 100%;
+  }
+  #carousel-wrapper .carousel-inner img {
+    height: 275px;
+    width: 100%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  #project-row {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
+  #project-row .card {
+    background-color: #ffffff;
+    height: 100px;
+    width: 90px;
+  }
+  #project-row img {
+    height: 120px;
+    width: 90px;
+  }
+  #project-row .card .card-body {
+    height: 50px;
+    width: 90px;
+    margin: 0;
+    padding: 0;
+  }
+  #project-row .card p {
+    text-align: center;
+  }
+  #news .container-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  #news .card1 {
+    width: 300px;
+    height: 250px;
+    font-size: 12px;
+    overflow: auto;
+  }
+  #news .card2 {
+    width: 300px;
+    height: 25%;
+    font-size: 12px;
+    overflow: auto;
+  }
+  #news .card-header {
+    padding: 10px;
+  }
+  #clients .card-wrapper {
+    width: auto;
+    height: 80vh;
+    margin-bottom: 20px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  #clients .card {
+    width: 75px;
+    height: 100px;
+  }
+  #clients .card .card-body img {
+    width: 50px;
+    height: 50px;
+  }
+  #clients .card .card-body p {
+    font-size: 10px;
+  }
+  #company .card {
+    height: 200px;
+    padding: 5px;
+  }
+  #company #card1 {
+    height: 325px;
+  }
+  #company #card2 {
+    height: 125px;
+  }
+  #company h3, #company p{
+    font-size: 12px;
+  }
+  #company .card  {
+    overflow: auto;
+  }
+  #company .card  .row1{
+    display: flex;
+    flex-direction: column;
+  }
+  #team .profile-wrapper {
+    margin-left: 35px;
+    height: 180px;
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  #team .profile-wrapper img{
+    height: 70px;
+    width: 100%;
+  }
+  #team .profile-wrapper h2{
+    font-size: 12px;
+    margin: 0;
+  }
+  #team .profile-wrapper p{
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+  }
+  #team .card-header{
+    height: 40px;
+    padding: 0;
+    margin-top: 5px;
+  }
+
+  #team .row2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  #team .card{
+    height: 105px;
+  }
+
+  #company .spacer, #team .spacer {
+    height: 20px;
+  }
+  #company .card-header{
+    padding: 5px;
+  }
+
+  #contact .row3{
+    display: flex;
+    flex-direction: column;
+  }
+  #contact .row3 .card {
+    height: 290px;
+    overflow: auto;
+    
+  }
+  #contact .row3 .form-group{
+    padding: 5px;
+    margin-bottom: -10px;
+  }
+
+  #contact label{
+    font-size: 12px;
+  }
+  #contact .row3 .btn{
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .footer {
+    height: 100vh;
+  }
+  .footer .footer-body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .footer-wrapper a {
+    font-size: 12px;
+  }
+  .footer .footer-wrapper img {
+    height: 70px;
+  }
 }

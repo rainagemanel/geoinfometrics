@@ -59,26 +59,28 @@
 
         <section class="content" id="company">
             <div class="spacer"></div>
+            <div class="spacer"></div>
             <div class="content-header">
-                <h1>ABOUT OUR COMPANY</h1>
+                <h1 class="text-white">ABOUT OUR COMPANY</h1>
             </div>
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="card-wrapper">
-                            <div class="card ">
+                            <div class="card" id="card1">
                                 <div class="card-header">
                                     <h3>GEOINFOMETRICS SOLUTIONS CORP.</h3>
                                 </div>
-                                <div class="card-inner">
-                                    <div class="card-body">
-                                        <p>We're one of the pioneers in the promotion and use of open source in the field of
-                                            Geomatics and its applications in the Philippines. It seeks to help local government units (LGUs)
-                                            in the establishment of Geographic Information System (GIS) facility and management information system
-                                            (MIS) for better implementation of government mandated plans by advancing knowledge and fostering creativity
-                                            using open source in the field of Geomatics. It does so through promoting open source in the field of Geomatics and a commitment to serve the nation and enhancement of ecosystem in the Philippines.</p>
+                                <div class="row1">
+                                    <div class="col-md-9">
+                                        <p> <b>We're web developers, planning officers, GIS officers and open source practitioners.</b>
+                                            We're one of the pioneers in the promotion and use of open source in the field of Geomatics and its applications in the Philippines.
+                                            It seeks to help local government units (LGUs) in the establishment of Geographic Information System (GIS) facility and management
+                                            information system (MIS) for better implementation of government mandated plans by advancing knowledge and fostering creativity using
+                                            open source in the field of Geomatics. It does so through promoting open source in the field of Geomatics and a commitment to serve
+                                            the nation and enhancement of ecosystem in the Philippines.</p>
                                     </div>
-                                    <div class="card-body">
+                                    <div class="col-md-3">
                                         <img src="../dist/img/logo.png">
                                     </div>
                                 </div>
@@ -92,24 +94,24 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="card-wrapper">
-                            <div class="card">
+                            <div class="card" id="card2">
                                 <div class="card-header">
-                                    <h3>Our Mission</h3>
+                                    <h3>OUR MISSION</h3>
                                 </div>
                                 <div class="card-body">
-                                    <p>To empower the Philippines through the widespread adoption and advocacy of open-source solutions within the Geomatics sector. We are dedicated to assisting local government units in implementing cutting-edge Geographic Information System (GIS) facilities and Management Information Systems (MIS), thereby facilitating the effective execution of governmental strategies. By fostering innovation and knowledge dissemination, we aim to enrich the Geomatics landscape and contribute to the sustainable development of our nation.</p>
+                                    <p>To proactively contribute towards better societies by providing services in the areas of planning, geographic information system, management information system for the enhancement of services and performances of people and organizations in public and private sectors.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="card-wrapper">
-                            <div class="card">
+                            <div class="card" id="card2">
                                 <div class="card-header">
-                                    <h3>Our Vision</h3>
+                                    <h3>OUR VISION</h3>
                                 </div>
                                 <div class="card-body">
-                                    <p>To be the forefront leader in revolutionizing Geomatics practices across the Philippines by championing open-source initiatives. Our vision entails a future where every local government unit seamlessly integrates state-of-the-art GIS and MIS technologies into their operations, resulting in enhanced efficiency, informed decision-making, and inclusive development. Through our unwavering commitment to excellence and national service, we aspire to catalyze positive change and cultivate a thriving Geomatics ecosystem for the benefit of all Filipinos.</p>
+                                    <p>A world-class planning and systems provider that ensures better and affordable-innovative services of its clients.</p>
                                 </div>
                             </div>
                         </div>
@@ -124,9 +126,10 @@
             <div class="content-header">
                 <h1>OUR AMAZING TEAM</h1>
             </div>
+            <div class="spacer"></div>
 
             <div class="container-fluid">
-                <div class="row">
+                <div class="row2">
 
                     <div class="col-md-4">
                         <div class="profile-wrapper">
@@ -134,38 +137,30 @@
                                 <!-- /.card-header -->
                                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
-                                    <div class="card-header">
-                                                    MIS
-                                                </div>
+                                        <div class="card-header text-center">
+                                            <h2>Management Information System (MIS)</h2>
+                                        </div>
                                         <div class="carousel-item active">
                                             <div class="card">
-                                                
                                                 <img src="../dist/img/prof1.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>senior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof2.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>junior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof3.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>software developer</p>
                                             </div>
                                         </div>
-
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                         <span class="carousel-control-custom-icon" aria-hidden="true">
@@ -190,34 +185,30 @@
                                 <!-- /.card-header -->
                                 <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
+                                        <div class="card-header text-center">
+                                            <h2 class="mt-2">Planning</h2>
+                                        </div>
                                         <div class="carousel-item active">
                                             <div class="card">
                                                 <img src="../dist/img/prof1.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>senior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof2.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>junior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof3.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>software developer</p>
                                             </div>
                                         </div>
-
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
                                         <span class="carousel-control-custom-icon" aria-hidden="true">
@@ -242,34 +233,30 @@
                                 <!-- /.card-header -->
                                 <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
                                     <div class="carousel-inner">
+                                        <div class="card-header text-center">
+                                            <h2>Geographic Information System (GIS)</h2>
+                                        </div>
                                         <div class="carousel-item active">
                                             <div class="card">
                                                 <img src="../dist/img/prof1.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>senior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof2.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>junior software developer</p>
                                             </div>
                                         </div>
                                         <div class="carousel-item ">
                                             <div class="card">
                                                 <img src="../dist/img/prof3.jpg" alt="First slide">
-                                                <div class="card-body">
-                                                    <h1 class="card-title">name</h1>
-                                                    <p class="card-text">description</p>
-                                                </div>
+                                                <h2 class="mt-1">name</h2>
+                                                <p>software developer</p>
                                             </div>
                                         </div>
-
                                     </div>
                                     <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
                                         <span class="carousel-control-custom-icon" aria-hidden="true">
@@ -288,28 +275,25 @@
                         </div>
                     </div>
 
-
-
-
-
                 </div>
 
             </div>
 
         </section>
+
         <section class="content" id="contact">
 
             <div class="spacer"></div>
             <div class="content-header ">
-                <h1>CONTACT US</h1>
+                <h1 class="text-white">CONTACT US</h1>
             </div>
 
             <div class="container-fluid">
-                <div class="row">
+                <div class="row3">
                     <div class="col-md-6">
                         <div class="card card-success">
                             <div class="card-header">
-                                <h2>Start a project with us</h2>
+                                <h2 class="card-title">Start a project with us</h2>
                             </div>
                             <div class="card-body">
                                 <form>
@@ -330,7 +314,7 @@
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Email</label>
-                                            <input type="email" class="form-control" placeholder="example/jose@gmail.com">
+                                            <input type="email" class="form-control" placeholder="example: jose@gmail.com">
                                         </div>
                                     </div>
                                     <div class="form-group ">
@@ -339,16 +323,16 @@
                                     </div>
 
                                     <button type="submit" class="btn btn-primary ">Send</button>
-                                </form>
                             </div>
                         </div>
                     </div>
 
 
+
                     <div class="col-md-6">
                         <div class="card card-primary">
                             <div class="card-header ">
-                                <h2>Join Us</h2>
+                                <h2 class="card-title">Join Us</h2>
                             </div>
                             <div class="card-body">
                                 <form>
@@ -369,124 +353,123 @@
                                         </div>
                                         <div class="form-group col-md-6">
                                             <label>Email</label>
-                                            <input type="email" class="form-control" placeholder="example/jose@gmail.com">
+                                            <input type="email" class="form-control" placeholder="example: jose@gmail.com">
                                         </div>
                                     </div>
                                     <div class="form-group ">
                                         <label>Insert File</label>
-                                        <input type="file" class="form-control" placeholder="File">
+                                        <input type="file" class="form-control-file" placeholder="File">
                                     </div>
 
-                                    <button type="submit" class="btn btn-primary ">Send</button>
+                                    <button type="submit" class="btn btn-primary mt-2">Send</button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </section>
 
 
-
-
-            <div class="footer">
-                <div class="footer-body" style=" position: absolute; width:100%; height: 30vh; left:0; bottom: 0; background-color: #ffffff; ">
-                    <div class="container-fluid">
-                        <div class="row m-3">
-                            <div class="col-sm-12">
-                                <div class="footer-wrapper">
-                                    <div class="row">
-                                        <div class="col-md-3" style="text-align: center;">
-                                            <img src="../dist/img/logo.png" style="height: 100px; border-radius: 50%; box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); margin-bottom: 5px;">
-                                            <h3>
-                                                GEOINFOMETRICS
-                                            </h3>
-                                            <p class="mt-2 text-center">
-                                                Translating Knowledge to Service.
-                                            </p>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <h2>
-                                                Services
-                                            </h2>
-                                            <ul style="list-style-type: none; padding: 0;">
-                                                <li>
-                                                    <a href="#!">Management Information System (MIS)</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Planning</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Geographic Information System (GIS)</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <h2>
-                                                Projects
-                                            </h2>
-                                            <ul style="list-style-type: none; padding: 0;">
-                                                <li>
-                                                    <a href="#!">News</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Clients</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Job Vacancies</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <h2>
-                                                About Us
-                                            </h2>
-                                            <ul style="list-style-type: none; padding: 0;">
-                                                <li>
-                                                    <a href="#!">Company Profile</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Our Team</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#!">Start a project</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-md-2">
-                                            <h2>CONTACT US</h2>
-                                            <ul style="list-style-type: none; padding: 0;">
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-phone"></i> GLOBE: (049) 310 9451
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="#">
-                                                        <i class="fas fa-home"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="mailto:info@example.com">
-                                                        <i class="fas fa-envelope"></i> info@example.com
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <a href="https://www.facebook.com/geoinfometrics">
-                                                        <i class="fab fa-facebook-square"></i> fb.com/geoinfometrics
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
+        <div class="footer">
+            <div class="footer-body">
+                <div class="spacer"></div>
+                <div class="container-fluid">
+                    <div class="row m-3">
+                        <div class="col-sm-12">
+                            <div class="footer-wrapper">
+                                <div class="row">
+                                    <div class="col-md-3" style="text-align: center;">
+                                        <img src="../dist/img/logo.png">
+                                        <h3>
+                                            GEOINFOMETRICS SOLUTIONS CORP.
+                                        </h3>
+                                        <p class="mt-2 text-center">
+                                            Translating Knowledge to Service.
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <h2>
+                                            Services
+                                        </h2>
+                                        <ul style="list-style-type: none; padding: 0;">
+                                            <li>
+                                                <a href="management.php">Management Information System (MIS)</a>
+                                            </li>
+                                            <li>
+                                                <a href="planning.php">Planning</a>
+                                            </li>
+                                            <li>
+                                                <a href="geo.php">Geographic Information System (GIS)</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h2>
+                                            Projects
+                                        </h2>
+                                        <ul style="list-style-type: none; padding: 0;">
+                                            <li>
+                                                <a href="project.php#news">News</a>
+                                            </li>
+                                            <li>
+                                                <a href="project.php#news">Job Vacancies</a>
+                                            </li>
+                                            <li>
+                                                <a href="project.php#clients">Clients</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h2>
+                                            About Us
+                                        </h2>
+                                        <ul style="list-style-type: none; padding: 0;">
+                                            <li>
+                                                <a href="about.php#company">Company Profile</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.php#team">Our Team</a>
+                                            </li>
+                                            <li>
+                                                <a href="about.php#contact">Start a project</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <h2>CONTACT US</h2>
+                                        <ul style="list-style-type: none; padding: 0;">
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-phone"></i> GLOBE: (049) 310 9451
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <i class="fas fa-home"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="mailto:info@example.com">
+                                                    <i class="fas fa-envelope"></i> info@example.com
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.facebook.com/geoinfometrics">
+                                                    <i class="fab fa-facebook-square"></i> fb.com/geoinfometrics
+                                                </a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
-            </div>
-        </section>
 
+            </div>
+
+        </div>
     </div>
 
 </body>
