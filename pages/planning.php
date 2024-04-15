@@ -23,7 +23,7 @@
     </header> -->
 
     <section id="mp" class="mp">
-<div class="tit" style="text-align: center; color: black;">
+<div class="tit" style="text-align: center; color: white;">
   <h1>
   "Good fortune is what happens 
 </h1>
@@ -33,17 +33,17 @@ when opportunity meets with
 <h1>
   <b>Planning."</b>
 </h1>
-<button type="button">Let's get Started!</button>
+<a href="contact.php" class="button">Let's get Started!</a>
 </div>
 </section>
 
 <!-- SERVICES TO CHOOSE CODE -->
 <section id="choices" class="choices">
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
     <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Environmental Planning Services</h5>
+        <h5 class="card-title" style="font-weight: 900;">Environmental Planning Services</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Climate and Disaster Risk Assessment</li>
           <li>Disaster Risk Reduction and Management Plan</li>
@@ -57,10 +57,10 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Land Use Planning</h5>
+        <h5 class="card-title" style="font-weight: 900;">Land Use Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Cave Management Plan</li>
           <li>Comprehensive Development Plan</li>
@@ -74,10 +74,10 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Community Development Planning</h5>
+        <h5 class="card-title" style="font-weight: 900;">Community Development Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Gender and Development Plan</li>
           <li>Local Climate Change Action Plan</li>
@@ -90,15 +90,15 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Emergency Management Planning</h5>
+        <h5 class="card-title" style="font-weight: 900;">Emergency Management Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Evacuation Camp Management Plan</li>
           <li>Contingency Plan</li>
         </ul>
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Feasibilities Studies</h5>
+        <h5 class="card-title" style="font-weight: 900;">Feasibilities Studies</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Feasible Study</li>
         </ul>
