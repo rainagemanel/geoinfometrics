@@ -23,9 +23,12 @@
     height: auto; 
   } */
 
+  
+
   .mp {
     background-image: url("../img/bg1.jpg");
     height:100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -81,7 +84,11 @@
     transition: transform 0.3s ease;
   }
 
-  .button1 {
+  .column{
+    margin: 10px;
+  }
+
+  /* .button1 {
     display: block;
     margin-top: 10px;
     padding: 5px 10px;
@@ -91,27 +98,34 @@
     border-radius: 5px;
     cursor: pointer;
     align-items: center;
+  } */
+
+
+  h1{
+    font-size: 500px;
   }
 
   h3{
+    font-family: Audiowide, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 32px;
-    letter-spacing: 8px;
-    font-weight: 900;
+    padding-top: 20px;
+    letter-spacing: 20px;
   }
+
+  /* h5{
+    font-family: Audiowide, sans-serif;
+  } */
 
   .fp{
-    background-image: url('../img/abg.jpg'); 
-    background-size: cover;
+    /* background-image: url('../img/abg.jpg');  */
+    /* background-size: cover;
     background-position: center;
-    background-repeat: no-repeat; 
-    background-color: rgba(0, 0, 0, 0.9);
+    background-repeat: no-repeat;  */
+    /* background-color: lightblue; */
     height: 100vh;
   }
-
-
   
   .iframe-container {
     margin-left: 150px;
@@ -124,7 +138,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: black;
+    color: rgb(42, 39, 39);
   }
 
   .t :hover{
@@ -133,13 +147,17 @@
 
   .t th {
     background-color: white;
-    color: black;
+    /* color: black; */
     padding: 8px;
     text-align:center;
     margin-left: auto;
     margin-right: 80px;
-    border: 3px solid black;
+    border: 2px solid rgb(70, 66, 66);
     /* padding: 8px; */
+  }
+
+  .t th a {
+  color:rgb(56, 60, 69);
   }
 
   .button{
@@ -162,11 +180,11 @@
   }
 
   .lup{
-    background-image: url('../img/abg.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-image: url('../img/abg.jpg');  */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat;  */
+    /* background-color: rgba(0, 0, 0, 0.9); */
     height: 100vh;
   }
 
@@ -196,12 +214,44 @@
 
 /* ***********ABOUT US ************* */
 .card {
-    display: flex;
-    position: center;
-    align-items: center;
-    margin-left: 50px;
+
     justify-content: space-between;
-    justify-content: space-between;
+    width:100%;
+    max-width: 70rem;
+    padding: 0 0 200px;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+
+  .card-title {
+    margin-bottom: 10px;
+  }
+
+  .card-img-top {
+    max-width: 100%;
+    height: auto;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    font-size: 11px;
+    letter-spacing: 0px;
+  }
+
+  .button1 {
+    font-size: 12px;
+  }
+
+  @media (min-width: 768px) {
+    .choices {
+      justify-content: space-between;
+    }
   }
   
   .circle-img {

@@ -23,7 +23,7 @@
     </header> -->
 
     <section id="mp" class="mp">
-<div class="tit" style="text-align: center; color: black;">
+<div class="tit" style="text-align: center; color: white;">
   <h1>
   "Good fortune is what happens 
 </h1>
@@ -33,17 +33,17 @@ when opportunity meets with
 <h1>
   <b>Planning."</b>
 </h1>
-<button type="button">Let's get Started!</button>
+<a href="contact.php" class="button">Let's get Started!</a>
 </div>
 </section>
 
 <!-- SERVICES TO CHOOSE CODE -->
 <section id="choices" class="choices">
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
     <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Environmental Planning Services</h5>
+        <h5 class="card-title" style="font-family: Audiowide, sans-serif;">Environmental Planning Services</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Climate and Disaster Risk Assessment</li>
           <li>Disaster Risk Reduction and Management Plan</li>
@@ -57,10 +57,10 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Land Use Planning</h5>
+        <h5 class="card-title" style=" font-family: Audiowide, sans-serif;">Land Use Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Cave Management Plan</li>
           <li>Comprehensive Development Plan</li>
@@ -74,10 +74,10 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Community Development Planning</h5>
+        <h5 class="card-title" style=" font-family: Audiowide, sans-serif;">Community Development Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Gender and Development Plan</li>
           <li>Local Climate Change Action Plan</li>
@@ -90,15 +90,15 @@ when opportunity meets with
   </div>
 
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
       <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Emergency Management Planning</h5>
+        <h5 class="card-title" style=" font-family: Audiowide, sans-serif;">Emergency Management Planning</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Evacuation Camp Management Plan</li>
           <li>Contingency Plan</li>
         </ul>
-        <h5 class="card-title" style="text-align: center; font-weight: 900;">Feasibilities Studies</h5>
+        <h5 class="card-title" style=" font-family: Audiowide, sans-serif;">Feasibilities Studies</h5>
         <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Feasible Study</li>
         </ul>
@@ -115,7 +115,7 @@ when opportunity meets with
 
 <!-- FIRST SERVICE CODE -->
 <section id="fp" class="fp">
-  <h3>Environmental Planning Services</h3>
+  <h3 style=" font-family: Audiowide, sans-serif;">Environmental Planning Services</h3>
 <table class="t" style="width: 100%;" >
   <tr>
   <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
@@ -138,7 +138,7 @@ when opportunity meets with
 
 <!-- SECOND SERVICE CODE  -->
 <section id="sp" class="sp">
-  <h3>Land Use Planning</h3>
+  <h3 style=" font-family: Audiowide, sans-serif;">Land Use Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
   <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
@@ -160,7 +160,7 @@ when opportunity meets with
 
 <!-- THIRD SERVICE PAGE  -->
 <section id="lup" class="lup">
-  <h3>Community Development Planning</h3>
+  <h3 style=" font-family: Audiowide, sans-serif;">Community Development Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
   <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
@@ -182,7 +182,7 @@ when opportunity meets with
 
 <!-- FOURTH SERVICE PAGE  -->
 <section id="fthp" class="fthp">
-  <h3>Emergency Management Planning</h3>
+  <h3 style=" font-family: Audiowide, sans-serif;">Emergency Management Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
   <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
