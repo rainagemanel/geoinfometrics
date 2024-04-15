@@ -23,6 +23,35 @@
     height: auto; 
   } */
 
+  nav .navbar-brand h3 {
+    font-family: "Audiowide", cursive !important;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-left: 10px;
+  }
+  nav .navbar-brand img {
+    height: 35px;
+  }
+  nav .navbar-brand {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-left: 60px;
+  }
+  nav {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 0;
+    background: #fff !important;
+  }
+  .nav-link {
+    font-weight: bold;
+  }
+  
+  nav .navbar-brand {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+  }
   
 
   .mp {

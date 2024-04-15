@@ -70,6 +70,7 @@ Powering Decisions"
           <li>Forest Land Use Plan</li>
           <li>Tourism Master Plan</li>
         </ul>
+        <br>
         <button class="button1" id="navbtn1" style="font-size: 12px;">Learn More</button>
       </div>
     </div>
@@ -86,6 +87,7 @@ Powering Decisions"
           <li>Local Shelter Plan</li>
           <li>Other government mandated plans</li>
         </ul>
+        <br>
         <button class="button1" id="navbtn2" style="font-size: 12px;">Learn More</button>
       </div>
     </div>
