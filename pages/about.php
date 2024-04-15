@@ -48,7 +48,7 @@
                             <a href="about.php" class="nav-link">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <button type="button" class="btn nav-link">Contact Us</button>
+                        <a href="contact.php" class="btn nav-link">Contact Us</a>
                         </li>
                     </ul>
                 </div>
