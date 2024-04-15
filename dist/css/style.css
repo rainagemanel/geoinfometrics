@@ -197,13 +197,17 @@ width: calc(250px * 14);
   display: flex;
   justify-content: center;
   align-items: center; /* Adjust height as needed */
+  
 
 }
-
+.my-custom-background {
+  background-color: #f0f0f0; /* Specify your desired background color */
+}
 .card2 {
   width: 70%;
   /* border-radius: 10px;
   border: 1px solid rgb(16, 37, 34); */
+  
   margin: 15px;
   transition: box-shadow 0.3s; /* Add transition for smooth hover effect */
 }

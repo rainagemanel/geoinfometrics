@@ -32,6 +32,7 @@
   <!-- Section: Links  -->
   <div class="text-center mx-auto mt-5 mb-5">
     <a href="contact.php" class="project-link">
+      <br>
         Start a Project
     </a>
 </div>
