@@ -1,23 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geoinformetrics</title>
-    <link rel="icon" href="../dist/img/logo.png" type="image/png">
-    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-    <!-- AdminLTE CSS -->
-    <link rel="stylesheet" href="../dist/css/adminlte.min.css?v=3.2.0">
-    <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="../dist/css/project.css">
-</head>
-
+<?php include 'header.php'; ?>
 <body>
+<link rel="stylesheet" href="../dist/css/project.css">
     <div class="wrapper">
 
-        <!-- Navbar -->
-        <nav class="navbar fixed-top navbar-expand-sm navbar-light">
+
+        <!-- <nav class="navbar fixed-top navbar-expand-sm navbar-light">
             <div class="container-fluid">
                 <a href="index.php" class="navbar-brand">
                     <img src="../dist/img/logo.png" class="brand-image img-circle elevation-3">
@@ -27,8 +14,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse order-3" id="navbarCollapse">
-                    <!-- Left navbar links -->
-                    <ul class="navbar-nav ml-auto"> <!-- Utilize ml-auto class to push the dropdown to the right -->
+                    <ul class="navbar-nav ml-auto"> 
                         <li class="nav-item">
                             <a href="index.php" class="nav-link">Home</a>
                         </li>
@@ -37,11 +23,11 @@
                         </li>
                         <li class="nav-item dropdown">
                             <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
-                            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
+                            <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> 
                                 <li><a href="geo.php" class="dropdown-item">Geographic Information System</a></li>
                                 <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
                                 <li><a href="planning.php" class="dropdown-item">Planning</a></li>
-                                <!-- <li class="dropdown-divider"></li> -->
+                                
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -53,7 +39,7 @@
                     </ul>
                 </div>
             </div>
-        </nav>
+        </nav> -->
 
 
 
