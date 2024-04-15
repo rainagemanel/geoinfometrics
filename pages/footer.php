@@ -1,5 +1,42 @@
-<?php include 'head.php'; ?>
 
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from scratch.
+This page gets rid of all links and provides the needed markup only.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Geo Corp</title>
+    <link rel="icon" href="../dist/img/logo.png" type="image/png">
+
+  <!-- Google Font: Audiowide -->
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
+  <style>
+    .project-link {
+  font-weight: bold;
+  font-size: 44px;
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 0.5s, font-size 0.5s;
+  padding: 20px;
+}
+
+.project-link:hover {
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  opacity: 0.8; /* Increase opacity on hover */
+  font-size: 54px;
+}
+    </style>
+</head>
 <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
   <!-- Section: Social media -->
@@ -32,7 +69,7 @@
   <!-- Section: Links  -->
   <div class="text-center mx-auto mt-5 mb-5">
     <a href="contact.php" class="project-link">
-      <br>
+      
         Start a Project
     </a>
 </div>
