@@ -41,13 +41,13 @@ Connecting Communities"
 
 
 <!-- SERVICES TO CHOOSE CODE -->
-<section id="choices" class="choices">
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Environmental Planning Services</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
+<section id="tre" class="tre">
+  <div class="card-container">
+    <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 1</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
           <li>Climate and Disaster Risk Assessment</li>
           <li>Disaster Risk Reduction and Management Plan</li>
           <li>Ecological Profile</li>
@@ -55,63 +55,52 @@ Connecting Communities"
           <li>Solid Waste Management Plan</li>
         </ul>
         <button class="button1" id="navbtn" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
   </div>
-
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Land Use Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Cave Management Plan</li>
-          <li>Comprehensive Development Plan</li>
-          <li>Comprehensive Land Use Plan</li>
-          <li>Forest Land Use Plan</li>
-          <li>Tourism Master Plan</li>
+  </div>
+    <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
         </ul>
-        <br>
         <button class="button1" id="navbtn1" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
   </div>
-
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Community Development Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Gender and Development Plan</li>
-          <li>Local Climate Change Action Plan</li>
-          <li>Local Shelter Plan</li>
-          <li>Other government mandated plans</li>
+  </div>
+  <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
         </ul>
-        <br>
         <button class="button1" id="navbtn2" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
   </div>
-
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Emergency Management Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Evacuation Camp Management Plan</li>
-          <li>Contingency Plan</li>
-        </ul>
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Feasibilities Studies</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Feasible Study</li>
+  </div>
+  <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
         </ul>
         <button class="button1" id="navbtn3" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
   </div>
-</section>
+  </div>
+  </div>
+  </section>
 
 <script src="main.js"></script>
 

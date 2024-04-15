@@ -52,7 +52,11 @@
     display: flex;
     align-items: center;
   }
-  
+  .wrapper2 {
+    padding: 20px;
+    /* background: linear-gradient(to right, #3675D6, #1AE36D); */
+    align-items: center;
+  }
 
   .mp {
     background-image: url("../img/bg1.jpg");
@@ -243,16 +247,54 @@
 
 
 /* ***********ABOUT US ************* */
-.card {
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
 
-    justify-content: space-between;
+
+.card {
+  width:50px;
+  /* background-color: #fofofo; */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 2px 4px rgba(0 0 0 0.2);
+  margin: 20px;
+    /* justify-content: space-between;
     width:100%;
     max-width: 70rem;
-    padding: 0 0 200px;
+    padding: 0 0 200px; */
   }
 
+  .card img{
+    width:100%;
+    height:auto;
+  }
+
+  .card-content{
+    padding: 16px;
+  }
+
+  .card-content h3{
+font-size: 28px;
+margin-bottom: 8px;
+  }
+
+  .card-content .button1{
+    display: center;
+    justify-content: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 4px;
+    background-color: #333;
+    color:#fff;
+  }
   .card-body {
     text-align: center;
+    height: 10%;
   }
 
   .card-title {
@@ -261,17 +303,12 @@
 
   .card-img-top {
     max-width: 100%;
-    height: auto;
+    height: 20%;
   }
 
   ul {
     list-style-type: none;
     padding: 0;
-  }
-
-  li {
-    font-size: 11px;
-    letter-spacing: 0px;
   }
 
   .button1 {
@@ -284,14 +321,14 @@
     }
   }
   
-  .circle-img {
+  /* .circle-img {
     border-radius: 50%;
     overflow: hidden;
     width: 900px; 
     height: 150px;
     border: 5px solid black; 
     margin-right: 20px; 
-  }
+  } */
 
 .tit a{
   font-size: 30px;

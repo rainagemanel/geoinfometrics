@@ -39,7 +39,69 @@ when opportunity meets with
 </section>
 
 <!-- SERVICES TO CHOOSE CODE -->
-<section id="choices" class="choices">
+
+<section id="tre" class="tre">
+  <div class="card-container">
+    <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 1</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
+        </ul>
+        <button class="button1" id="navbtn" style="font-size: 12px;">Learn More</button>
+  </div>
+  </div>
+    <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
+        </ul>
+        <button class="button1" id="navbtn1" style="font-size: 12px;">Learn More</button>
+  </div>
+  </div>
+  <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
+        </ul>
+        <button class="button1" id="navbtn2" style="font-size: 12px;">Learn More</button>
+  </div>
+  </div>
+  <div class="card">
+    <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
+    <div class="card-content">
+      <h2>Card 2</h2>
+      <ul style="font-size: 11px; letter-spacing: 0px;">
+          <li>Climate and Disaster Risk Assessment</li>
+          <li>Disaster Risk Reduction and Management Plan</li>
+          <li>Ecological Profile</li>
+          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
+          <li>Solid Waste Management Plan</li>
+        </ul>
+        <button class="button1" id="navbtn3" style="font-size: 12px;">Learn More</button>
+  </div>
+  </div>
+  </div>
+  </section>
+
+<!-- <section id="choices" class="choices">
   <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
     <div class="card">
     <img src="../dist/img/bg1.jpg"class="card-img-top" alt="...">
@@ -109,7 +171,7 @@ when opportunity meets with
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <script src="main.js"></script>
 
