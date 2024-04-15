@@ -32,6 +32,7 @@ when opportunity meets with
 </h1>
 <h1>
   <b>Planning."</b>
+<br>
 </h1>
 <a href="contact.php" class="button">Let's get Started!</a>
 </div>

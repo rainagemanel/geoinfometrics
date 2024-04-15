@@ -24,15 +24,16 @@
     </header>
 
     <section id="msp" class="msp">
-<div class="tit" style="text-align: center; color: black;">
-  <!-- <h1>
-  "Good fortune is what happens 
+    <div class="tit" style="text-align: center; color: white;">
+  <h1>
+  "Unlocking Insights, 
 </h1>
 <h1>
-when opportunity meets with
+Powering Decisions"
 </h1>
 <h1>
-  <b>Planning."</b> -->
+  <b>Management Information System</b>
+<br>
 </h1>
 <a href="contact.php" class="button">Let's get Started!</a>
 </div>
@@ -119,7 +120,7 @@ when opportunity meets with
   <h3 style="font-weight: 900;">Environmental Planning Services</h3>
 <table class="t" style="width: 100%;" >
   <tr>
-  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/kv-KNABTu3U?si=wJn5581xKjB66AZ9', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
@@ -129,7 +130,7 @@ when opportunity meets with
 <br>
 <div id="embedContainer1" class="center-container">
   <div class="iframe-container" style="height: 450px"> 
-    <iframe id="embedFrame1" width="100%" height="100%" src="https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ" title="YouTube video player" frameborder="0"
+    <iframe id="embedFrame1" width="100%" height="100%" src="https://www.youtube.com/embed/kv-KNABTu3U?si=wJn5581xKjB66AZ9" title="YouTube video player" frameborder="0"
        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
        allowfullscreen></iframe>
   </div>
@@ -142,7 +143,7 @@ when opportunity meets with
   <h3 style="font-weight: 900;">Land Use Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
-  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/kv-KNABTu3U?si=wJn5581xKjB66AZ9', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
@@ -164,10 +165,10 @@ when opportunity meets with
   <h3 style="font-weight: 900;">Community Development Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
-  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
-<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
-<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
-<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/kv-KNABTu3U?si=wJn5581xKjB66AZ9', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
 </tr>
 </table>
@@ -186,7 +187,7 @@ when opportunity meets with
   <h3 style="font-weight: 900;">Emergency Management Planning</h3>
 <table class="t" style="width: 100%;">
 <tr>
-  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/zt7pNmDnF98?si=h95Caf-ncDgblPOZ', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/kv-KNABTu3U?si=wJn5581xKjB66AZ9', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
 <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
