@@ -59,13 +59,13 @@
             Products
           </h6>
           <p class="text-left">
-            <a href="#!" class="text-reset">Geographic Information System (MIS)</a>
+            <a href="geo.php" class="text-reset">Geographic Information System (MIS)</a>
           </p>
           <p class="text-left">
-            <a href="#!" class="text-reset">Management Information System (MIS)</a>
+            <a href="management.php" class="text-reset">Management Information System (MIS)</a>
           </p>
           <p class="text-left">
-            <a href="#!" class="text-reset">Planning</a>
+            <a href="planning.php" class="text-reset">Planning</a>
           </p>
          
         </div>
