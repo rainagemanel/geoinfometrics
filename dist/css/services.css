@@ -28,6 +28,7 @@
   .mp {
     background-image: url("../img/bg1.jpg");
     height:100vh;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,12 +106,17 @@
   }
 
   h3{
+    font-family: Audiowide, sans-serif;
     display: flex;
-    color: #007bff;
     align-items: center;
     justify-content: center;
+    padding-top: 20px;
     letter-spacing: 20px;
   }
+
+  /* h5{
+    font-family: Audiowide, sans-serif;
+  } */
 
   .fp{
     /* background-image: url('../img/abg.jpg');  */
@@ -118,7 +124,7 @@
     background-position: center;
     background-repeat: no-repeat;  */
     /* background-color: lightblue; */
-    height: 100%;
+    height: 100vh;
   }
   
   .iframe-container {
@@ -146,12 +152,12 @@
     text-align:center;
     margin-left: auto;
     margin-right: 80px;
-    border: 2px solid rgb(41, 39, 39);
+    border: 2px solid rgb(70, 66, 66);
     /* padding: 8px; */
   }
 
   .t th a {
-  color:rgb(12, 65, 200);
+  color:rgb(56, 60, 69);
   }
 
   .button{
@@ -174,11 +180,11 @@
   }
 
   .lup{
-    background-image: url('../img/abg.jpg'); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; 
-    background-color: rgba(0, 0, 0, 0.9);
+    /* background-image: url('../img/abg.jpg');  */
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat;  */
+    /* background-color: rgba(0, 0, 0, 0.9); */
     height: 100vh;
   }
 
@@ -208,14 +214,11 @@
 
 /* ***********ABOUT US ************* */
 .card {
-    /* display: flex;
-    position: center;
-    align-items: center;
-    margin-left: 50px;
+
     justify-content: space-between;
-    justify-content: space-between; */
     width:100%;
-    max-width: 20rem;
+    max-width: 70rem;
+    padding: 0 0 200px;
   }
 
   .card-body {
