@@ -4,13 +4,16 @@
 </body>
 </nav>
 
-<body><section class="content">
+<body>
+    
+        <section class="content">
     <br>
     <h2 class="text-center mt-3" style=" font-family: 'Audiowide', cursive !important;">Connect to us</h2>
+    
     <div class="card2-container">
         <div class="card2">
             <div class="card-body row">
-                <div class="col-md-5 text-center d-flex align-items-center justify-content-center">
+                <div class="col-md-5 text-center d-flex align-items-center justify-content-center my-custom-background">
                     <div>
                         <h2 style="font-size: 30px;"><strong>Geoinfometrics</strong></h2>
                         <p class="lead mb-5"> Translating knowledge to service.</p>
@@ -48,11 +51,14 @@
         </div>
     </div>
 </section>
+    </div>
 <br>
+<div class="wrapper2">
 <div class="col-md-12 text-center py-4">
-        <h2 class="text-center mt-3" style="font-family: 'Audiowide', cursive !important;">Where to find us?</h2>
+        <h2 class="text-center mt-3" style="font-family: 'Audiowide', cursive !important; color:white;">Where to find us?</h2>
       </div>
 <section class="content">
+
   <!-- Default box -->
   <div class="card2-container">
     <div class="card2">
@@ -62,8 +68,10 @@
       </div>
     </div>
   </div>
+      </div>
 </section>
-<br>
+
+</body>
 <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
     © 2024 Copyright:
     <a class="text-reset fw-bold" href="https://www.geoinfometrics.com/geoweb/">Geoinfometrics Solutions Corp.</a>
