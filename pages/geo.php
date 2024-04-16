@@ -107,7 +107,34 @@ Connecting Communities"
 <!-- END OF CHOOSING SERVICES CODE -->
 
 
-<!-- FIRST SERVICE CODE -->
+  <section id="newp" class="newp">
+
+  </section>
+
+
+
+<!-- LAST PAGE  -->
+<section id="ending" class="ending">
+  <div>
+    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
+    <button class="button3" id="pwu">Plan With Us!</button>
+  </div>  
+</section>
+
+
+<?php include 'footer.php'; ?>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- FIRST SERVICE CODE
 <section id="fp" class="fp">
   <h3 style=" font-family: Audiowide, sans-serif;">Environmental Planning Services</h3>
 <table class="t" style="width: 100%;" >
@@ -128,9 +155,9 @@ Connecting Communities"
   </div>
   <p class="mx-auto p-2" style="width: 200px;">Additonal INFO</p>
 </section>
-<!-- END OF FIRST SERVICE  -->
+END OF FIRST SERVICE 
 
-<!-- SECOND SERVICE CODE  -->
+SECOND SERVICE CODE 
 <section id="sp" class="sp">
   <h3 style=" font-family: Audiowide, sans-serif;">Land Use Planning</h3>
 <table class="t" style="width: 100%;">
@@ -150,9 +177,9 @@ Connecting Communities"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF SECOND PAGE  -->
+END OF SECOND PAGE 
 
-<!-- THIRD SERVICE PAGE  -->
+THIRD SERVICE PAGE 
 <section id="lup" class="lup">
   <h3 style=" font-family: Audiowide, sans-serif;">Community Development Planning</h3>
 <table class="t" style="width: 100%;">
@@ -172,9 +199,9 @@ Connecting Communities"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF THIRD PAGE  -->
+END OF THIRD PAGE 
 
-<!-- FOURTH SERVICE PAGE  -->
+FOURTH SERVICE PAGE 
 <section id="fthp" class="fthp">
   <h3 style=" font-family: Audiowide, sans-serif;">Emergency Management Planning</h3>
 <table class="t" style="width: 100%;">
@@ -194,17 +221,4 @@ Connecting Communities"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF FOURTH PAGE  -->
-
-<!-- LAST PAGE  -->
-<section id="ending" class="ending">
-  <div>
-    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
-    <button class="button3" id="pwu">Plan With Us!</button>
-  </div>  
-</section>
-
-
-<?php include 'footer.php'; ?>
-</body>
-</html>
+END OF FOURTH PAGE  -->
