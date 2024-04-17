@@ -173,6 +173,7 @@ width: calc(250px * 14);
 
 .btn-green:hover {
   background-color: #45a049;
+  color: white;
 }
 .col-md-4 {
   text-align: center;

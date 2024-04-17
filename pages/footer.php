@@ -67,7 +67,7 @@ This page gets rid of all links and provides the needed markup only.
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <div class="text-center mx-auto mt-5 mb-5">
+  <div class="text-center mx-auto mt-5 mb-3">
     <a href="contact.php" class="project-link">
       
         Start a Project
@@ -97,7 +97,7 @@ This page gets rid of all links and provides the needed markup only.
             Products
           </h6>
           <p class="text-left">
-            <a href="geo.php" class="text-reset">Geographic Information System (MIS)</a>
+            <a href="geo.php" class="text-reset">Geographic Information System (GIS)</a>
           </p>
           <p class="text-left">
             <a href="management.php" class="text-reset">Management Information System (MIS)</a>
@@ -110,9 +110,9 @@ This page gets rid of all links and provides the needed markup only.
         <!-- Grid column -->
 
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3">
+        <!-- <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-3"> -->
           <!-- Links -->
-          <h6 class="text-uppercase text-left font-weight-bold mb-3">
+          <!-- <h6 class="text-uppercase text-left font-weight-bold mb-3">
             Useful links
           </h6>
           <p class="text-left">
@@ -127,7 +127,7 @@ This page gets rid of all links and provides the needed markup only.
           <p class="text-left">
             <a href="#!" class="text-reset">About us</a>
           </p>
-        </div>
+        </div> -->
         <!-- Grid column -->
 
         <!-- Grid column -->
@@ -139,7 +139,7 @@ This page gets rid of all links and provides the needed markup only.
             <i class="fas fa-envelope me-3 mr-2"></i>
             info@example.com
           </p>
-          <p class="text-left"><i class="fab fa-facebook-f mr-3"></i>www.facebook.com/geoinfometrics</p>
+          <p class="text-left"><i class="fab fa-facebook-f mr-1"></i>facebook.com/ geoinfometrics</p>
     
         </div>
         <!-- Grid column -->
