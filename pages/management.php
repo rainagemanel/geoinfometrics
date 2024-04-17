@@ -101,84 +101,61 @@ Powering Decisions"
   </div>
   </div>
   </section>
-<!-- <section id="choices" class="choices">
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Environmental Planning Services</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Climate and Disaster Risk Assessment</li>
-          <li>Disaster Risk Reduction and Management Plan</li>
-          <li>Ecological Profile</li>
-          <li>Initial Environmental Examination /Environmental Impact Assessment</li>
-          <li>Solid Waste Management Plan</li>
-        </ul>
-        <button class="button1" id="navbtn" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
-  </div>
 
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Land Use Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Cave Management Plan</li>
-          <li>Comprehensive Development Plan</li>
-          <li>Comprehensive Land Use Plan</li>
-          <li>Forest Land Use Plan</li>
-          <li>Tourism Master Plan</li>
-        </ul>
-        <br>
-        <button class="button1" id="navbtn1" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Community Development Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Gender and Development Plan</li>
-          <li>Local Climate Change Action Plan</li>
-          <li>Local Shelter Plan</li>
-          <li>Other government mandated plans</li>
-        </ul>
-        <br>
-        <button class="button1" id="navbtn2" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
-  </div>
-
-  <div class="column" onmouseover="enlargeColumn(this)" onmouseout="resetColumn(this)">
-    <div class="card" style="width: 20rem;">
-      <img src="../dist/img/bg1.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Emergency Management Planning</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Evacuation Camp Management Plan</li>
-          <li>Contingency Plan</li>
-        </ul>
-        <h5 class="card-title" style="text-align: center;  font-family: Audiowide, sans-serif;">Feasibilities Studies</h5>
-        <ul style="font-size: 11px; letter-spacing: 0px;">
-          <li>Feasible Study</li>
-        </ul>
-        <button class="button1" id="navbtn3" style="font-size: 12px;">Learn More</button>
-      </div>
-    </div>
-  </div>
-</section>
-
-<script src="main.js"></script> -->
 
 <!-- END OF CHOOSING SERVICES CODE -->
 
 
-<!-- FIRST SERVICE CODE -->
+
+
+<!-- LAST PAGE  -->
+<section id="ending" class="ending">
+  <div>
+    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
+    <button class="button3" id="pwu">Plan With Us!</button>
+  </div>  
+</section>
+
+
+<?php include 'footer.php'; ?>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- FIRST SERVICE CODE
 <section id="fp" class="fp">
   <h3 style="font-weight: 900;">Environmental Planning Services</h3>
 <table class="t" style="width: 100%;" >
@@ -199,9 +176,9 @@ Powering Decisions"
   </div>
   <p class="mx-auto p-2" style="width: 200px;">Additonal INFO</p>
 </section>
-<!-- END OF FIRST SERVICE  -->
+END OF FIRST SERVICE 
 
-<!-- SECOND SERVICE CODE  -->
+SECOND SERVICE CODE 
 <section id="sp" class="sp">
   <h3 style="font-weight: 900;">Land Use Planning</h3>
 <table class="t" style="width: 100%;">
@@ -221,9 +198,9 @@ Powering Decisions"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF SECOND PAGE  -->
+END OF SECOND PAGE 
 
-<!-- THIRD SERVICE PAGE  -->
+THIRD SERVICE PAGE 
 <section id="lup" class="lup">
   <h3 style="font-weight: 900;">Community Development Planning</h3>
 <table class="t" style="width: 100%;">
@@ -243,9 +220,9 @@ Powering Decisions"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF THIRD PAGE  -->
+END OF THIRD PAGE 
 
-<!-- FOURTH SERVICE PAGE  -->
+FOURTH SERVICE PAGE 
 <section id="fthp" class="fthp">
   <h3 style="font-weight: 900;">Emergency Management Planning</h3>
 <table class="t" style="width: 100%;">
@@ -265,18 +242,4 @@ Powering Decisions"
       allowfullscreen></iframe>
   </div>
 </section>
-<!-- END OF FOURTH PAGE  -->
-
-
-<!-- LAST PAGE  -->
-<section id="ending" class="ending">
-  <div>
-    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
-    <button class="button3" id="pwu">Plan With Us!</button>
-  </div>  
-</section>
-
-
-<?php include 'footer.php'; ?>
-</body>
-</html>
+END OF FOURTH PAGE  -->
