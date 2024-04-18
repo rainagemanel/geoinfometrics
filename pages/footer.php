@@ -94,7 +94,7 @@ This page gets rid of all links and provides the needed markup only.
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
           <!-- Links -->
           <h6 class="text-uppercase text-left font-weight-bold mb-3">
-            Products
+            Services
           </h6>
           <p class="text-left">
             <a href="geo.php" class="text-reset">Geographic Information System (GIS)</a>

@@ -23,8 +23,13 @@
     margin-top: 20px;
     overflow-x: hidden;
 }
+.mb-4{
+  font-family: "Red Hat Display", sans-serif;
+    font-weight: bold;
+    
+}
   .bg-image h1 {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: "Red Hat Display", sans-serif;
     font-weight: bold;
     color: white;
     font-size: 74px;
@@ -37,9 +42,9 @@
   }
 
   .bg-image h2 {
-    font-family: 'Audiowide', cursive;
+    font-family: "Red Hat Display", sans-serif;
     color: white;
-    font-size: 44px;
+    font-size: 34px;
   }
 
   .bg-image ul {
@@ -58,7 +63,7 @@
 
   .bg-image .btn {
     background-color:  darkgreen;
-    
+    font-family: "Red Hat Display", sans-serif;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -85,9 +90,11 @@
     padding: 10px;
     text-align: center;
   }
-
+.h2-company {
+  font-family: "Konkhmer Sleokchher", system-ui;
+}
 .h2font {
-  font-family: 'Audiowide', cursive !important;
+  font-family: "Red Hat Display", sans-serif;
   font-size: 25px;
 }
 
@@ -150,9 +157,10 @@ width: calc(250px * 14);
 }
 
 .card-title {
-  font-size: 24px;
-  font-weight: bold;
+  
   margin-bottom: 10px;
+  font-family: "Red Hat Display", sans-serif;
+  text-align: center;
 }
 
 .card-text {

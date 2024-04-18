@@ -16,6 +16,10 @@ This page gets rid of all links and provides the needed markup only.
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Josefin+Sans:wght@500&family=Konkhmer+Sleokchher&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
@@ -24,10 +28,13 @@ This page gets rid of all links and provides the needed markup only.
   <!-- Custom styles -->
   <style>
     .navbar-brand .brand-text {
-  font-family: 'Audiowide', cursive !important;
-}
+      font-family: "Konkhmer Sleokchher", system-ui;
+      
+    }
 .navbar-nav .nav-link {
-  font-weight: bold; /* Apply bold font to nav items */
+  /* font-weight: regular; Apply bold font to nav items */
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
 }
 .dropdown-menu {
   display: none; /* Hide the dropdown menu by default */
@@ -62,7 +69,7 @@ This page gets rid of all links and provides the needed markup only.
     <div class="container">
       <a href="index.php" class="navbar-brand">
         <img src="../dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-        <span class="brand-text font-weight-light">Geoinfometrics</span>
+        <span class="brand-text font-weight-bold">GEO CORP</span>
       </a>
 
       <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
