@@ -38,7 +38,7 @@ This page gets rid of all links and provides the needed markup only.
     </style>
 </head>
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start text-muted " style="background-color: aliceblue">
   <!-- Section: Social media -->
   <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
    
@@ -67,15 +67,16 @@ This page gets rid of all links and provides the needed markup only.
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <div class="text-center mx-auto mt-5 mb-3">
+  <div class="text-center mx-auto mt-4 mb-3" style="background-color: white">
     <a href="contact.php" class="project-link">
       
         Start a Project
     </a>
-</div>
+
 <hr>
+</div>
   <section class="">
-    <div class="container text-center text-md-start mt-5">
+    <div class="container text-center text-md-start mt-5" >
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->

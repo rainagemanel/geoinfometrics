@@ -28,7 +28,10 @@ This page gets rid of all links and provides the needed markup only.
   <!-- Custom styles -->
   <style>
     .navbar-brand .brand-text {
-      font-family: "Konkhmer Sleokchher", system-ui;
+      /* font-family: "Konkhmer Sleokchher", system-ui; */
+      font-family: "Red Hat Display", sans-serif;
+      font-style: bold;
+      
       
     }
 .navbar-nav .nav-link {
