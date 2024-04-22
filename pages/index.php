@@ -35,7 +35,7 @@
     </div>
     <div class="col-md-6 text-center">
     
-      <img src="../dist/img/logo3.png" style="max-width: 70%; align-items: center;" alt="Geo Corp Logo" class="img-fluid mb-5">
+      <img src="../dist/img/logo3.png" style="max-width: 70%; align-items: center; margin-left: 60px;" alt="Geo Corp Logo" class="img-fluid mb-5">
     </div>
   </div>
 </div>
