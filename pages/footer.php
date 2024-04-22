@@ -1,25 +1,4 @@
 
-<!DOCTYPE html>
-<!--
-This is a starter template page. Use this page to start your new project from scratch.
-This page gets rid of all links and provides the needed markup only.
--->
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Geo Corp</title>
-    <link rel="icon" href="../dist/img/logo.png" type="image/png">
-
-  <!-- Google Font: Audiowide -->
-  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="../plugins/fontawesome-free/css/all.min.css">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="../dist/css/adminlte.min.css">
   <style>
     .project-link {
   font-weight: bold;
@@ -28,17 +7,30 @@ This page gets rid of all links and provides the needed markup only.
   color: inherit;
   transition: opacity 0.5s, font-size 0.5s;
   padding: 20px;
+  
 }
 
 .project-link:hover {
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
-  opacity: 0.8; /* Increase opacity on hover */
-  font-size: 54px;
+   /* Increase opacity on hover */
+  font-size: 50px;
+  background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to right, #3675d6, #0FCC7C);
+
+}
+
+footer .container p{
+  color: #6C757D;
+  font-size: 16px;
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  margin: 0 0 16px;
+  line-height: 1.5rem;
 }
     </style>
 </head>
 <!-- Footer -->
-<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<footer class="text-center text-lg-start text-muted " style="background-color: aliceblue">
   <!-- Section: Social media -->
   <!-- <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
    
@@ -67,15 +59,15 @@ This page gets rid of all links and provides the needed markup only.
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <div class="text-center mx-auto mt-5 mb-3">
+  <div class="text-center mx-auto mt-4 mb-3" style="background-color: white">
     <a href="contact.php" class="project-link">
       
         Start a Project
     </a>
-</div>
+
 <hr>
-  <section class="">
-    <div class="container text-center text-md-start mt-5">
+</div>
+    <div  class="container text-center text-md-start mt-5" >
       <!-- Grid row -->
       <div class="row mt-3">
         <!-- Grid column -->
@@ -94,7 +86,7 @@ This page gets rid of all links and provides the needed markup only.
         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-3">
           <!-- Links -->
           <h6 class="text-uppercase text-left font-weight-bold mb-3">
-            Products
+            Services
           </h6>
           <p class="text-left">
             <a href="geo.php" class="text-reset">Geographic Information System (GIS)</a>
@@ -146,7 +138,7 @@ This page gets rid of all links and provides the needed markup only.
       </div>
       <!-- Grid row -->
     </div>
-  </section>
+
   <!-- Section: Links  -->
 
   <!-- Copyright -->
