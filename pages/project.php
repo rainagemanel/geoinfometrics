@@ -133,7 +133,7 @@
         <div class="row">
 
           <div class="col-md-12">
-            <div class="calendar-wrapper" data-aos="zoom-in" data-aos-delay="400">
+            <div class="calendar-wrapper" data-aos="fade-down" >
               <div id='calendar'></div>
             </div>
           </div>
