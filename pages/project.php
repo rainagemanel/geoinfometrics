@@ -1,13 +1,25 @@
 <?php include 'header.php'; ?>
 
 <body>
-  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.1/css/responsive.dataTables.min.css" /> -->
+
   <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js">
 
+  <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+      let table1 = new DataTable('#myTable1');
+      let table2 = new DataTable('#myTable2');
+      AOS.init();
+    });
+  </script>
+<link rel="stylesheet" href="../dist/css/project.css">
 
-  <link rel="stylesheet" href="../dist/css/project.css">
 
   <div class="wrapper">
 
@@ -117,64 +129,11 @@
       <div class="content-header">
         <h1>EVENT CALENDAR</h1>
       </div>
-      <div class="container-fluid" data-aos="fade-right">
+      <div class="container-fluid" >
         <div class="row">
-          <!-- <div class="col-md-3">
-            <div class="calendar-event mb-2">
-              <div class="header">
-                <h2>Create Event</h2>
-              </div>
-              <div class="body ">
-                <form action="">
-                  <div class="form-group row ">
-                    <label class="col-sm-4 mt-1">Event Title: </label>
-                    <input type="text" class="form-control col-sm-8">
-                  </div>
-                  <div class="form-group row">
-                    <label class="col-sm-4">Event Type:</label>
-                    <select class="form-control col-sm-8" style="width: 150px; border-radius: 10px;">
-                      <option value="">Meeting</option>
-                      <option value="">Seminar</option>
-                      <option value="">Conference</option>
-                      <option value="">Others</option>
-                    </select>
-                  </div>
-                  <div class="form-group row ">
-                    <label class="col-sm-4">Description: </label>
-                    <textarea class="form-control col-sm-8" rows="1" style="width: 150px; border-radius: 10px;"></textarea>
-                  </div>
-                  <div class="form-group row">
-                    <label class="col-sm-4">Time: </label>
-                    <input type="time" class="form-control col-sm-8 ">
-                  </div>
-                  <div class="form-group row">
-                    <label class="col-sm-4">Date: </label>
-                    <input type="date" class="form-control col-sm-8">
-                  </div>
-                  <div class="d-flex justify-content-end">
-                    <button type="reset" class="btn btn-danger btn-sm ">Reset Fields</button>
-                    <button type="button" class="btn btn-success btn-sm" style="margin-left: 5px;">Create</button>
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="prebuilt-event">
-              <div class="header">
-                <h2>Prebuilt Events</h2>
-              </div>
-              <div class="body d-flex flex-column align-items-start">
-                <button class="btn btn-primary  mb-2">Meeting with Client</button>
-                <button class="btn btn-danger mb-2">Meeting with Boss</button>
-                <button class="btn btn-success mb-2">Meeting with Team</button>
-                <button class="btn btn-warning mb-2">Office Meeting</button>
-                <button class="btn btn-secondary mb-2">Travel</button>
-                <button class="btn btn-info mb-1">Birthday</button>
-              </div>
-            </div>
-          </div> -->
 
           <div class="col-md-12">
-            <div class="calendar-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div class="calendar-wrapper" data-aos="zoom-in" data-aos-delay="400">
               <div id='calendar'></div>
             </div>
           </div>
@@ -449,26 +408,9 @@
 
     <?php include 'footer.php'; ?>
   </div>
-
-  <script type="module">
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth'
-      });
-      calendar.render();
-    });
-    let table1 = new DataTable('#myTable1');
-    let table2 = new DataTable('#myTable2');
-    AOS.init();
-  </script>
-
-
 </body>
-<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
-<!-- <script src="https://cdn.datatables.net/responsive/3.0.1/js/dataTables.responsive.min.js"></script> -->
 <!-- AdminLTE JS -->
 <script src="../plugins/jquery/jquery.min.js"></script>
 
