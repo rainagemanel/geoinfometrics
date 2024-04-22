@@ -1,25 +1,22 @@
 <?php include 'header.php'; ?>
 
 <body>
-<link rel="stylesheet" href="../dist/css/project.css">
+  <!-- <link rel="stylesheet" href="https://cdn.datatables.net/responsive/3.0.1/css/responsive.dataTables.min.css" /> -->
+  <link rel="stylesheet" href="https://cdn.datatables.net/2.0.3/css/dataTables.dataTables.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js">
+
+
+  <link rel="stylesheet" href="../dist/css/project.css">
+
   <div class="wrapper">
-    <!-- Navbar -->
 
-
-
-
-
-    <section class="content" id="projects" style="background: radial-gradient(circle,  #58F418, #093DF6);">
-      <div class="spacer">
-
-      </div>
+    <section id="projects" style="position: relative; background: linear-gradient(to bottom, black, #1ae36d );">
       <div class="content-header">
-        <h1 style="color:#f1f1f1;">PROJECTS</h1>
+        <h1>PROJECTS</h1>
       </div>
-      <div class="container-fluid">
+      <div class="container-fluid position-relative" data-aos="zoom-in-up">
         <div id="carousel-wrapper">
-          <!-- /.card-header -->
-
           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -50,369 +47,180 @@
               <span class="sr-only">Next</span>
             </a>
           </div>
-
-        </div>
-
-        <h2 style="text-align:left; color:#f1f1f1; margin-top: 10px; margin-bottom: 0;">Our Projects</h2>
-
-        <div id="project-row">
-          <div class="row">
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d1.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d2.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d3.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d1.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d2.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-0 p-2">
-              <div class="card">
-                <img src="../dist/img/d3.jpg">
-                <div class="card-body">
-                  <p>Project 1</p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
-
     </section>
 
-    <section class="content" id="news">
-      <div class="spacer"></div>
+
+    <section id="card-project">
       <div class="content-header">
-        <h1>CURRENT PROJECTS & NEWS</h1>
+        <h1 class="text-dark">RECENT PROJECTS</h1>
       </div>
+      <div class="container position-relative">
+        <div class="row ">
 
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-6 ">
-            <div class="card1 card-primary">
-              <div class="card-header">
-                <h2 class="card-title">Project Status</h2>
+          <div class="col-xl-3 col-sm-6 aos-init aos-animate mb-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+              <img src="../dist/img/d1.jpg" class="img-fluid" alt="">
+              <div class="box-details">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem Ipsum</p>
+                <a href="" class="stretched-link">Read more</a>
               </div>
-              <div class="card-body table-responsive p-0">
-                <table class="table table-head-fixed text-nowrap table-striped">
-                  <thead>
-                    <tr>
-                      <th style="width: 10px">#</th>
-                      <th>Task</th>
-                      <th>Progress</th>
-                      <th style="width: 40px">Label</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>1.</td>
-                      <td>Update software</td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar bg-warning" style="width: 55%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-warning">55%</span></td>
-                    </tr>
-                    <tr>
-                      <td>2.</td>
-                      <td>Clean database</td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar bg-primary" style="width: 70%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-primary">70%</span></td>
-                    </tr>
-                    <tr>
-                      <td>3.</td>
-                      <td>Cron job running</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-danger" style="width: 30%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-danger">30%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                    </tr>
-                    <tr>
-                      <td>1.</td>
-                      <td>Update software</td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar bg-warning" style="width: 55%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-warning">55%</span></td>
-                    </tr>
-                    <tr>
-                      <td>2.</td>
-                      <td>Clean database</td>
-                      <td>
-                        <div class="progress progress-xs">
-                          <div class="progress-bar bg-primary" style="width: 70%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-primary">70%</span></td>
-                    </tr>
-                    <tr>
-                      <td>3.</td>
-                      <td>Cron job running</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-danger" style="width: 30%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-danger">30%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                    </tr>
-                    <tr>
-                      <td>4.</td>
-                      <td>Fix and squish bugs</td>
-                      <td>
-                        <div class="progress progress-xs progress-striped active">
-                          <div class="progress-bar bg-success" style="width: 90%"></div>
-                        </div>
-                      </td>
-                      <td><span class="badge bg-success">90%</span></td>
-                    </tr>
-                  </tbody>
-                </table>
+            </div>
+
+          </div>
+
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="box">
+              <img src="../dist/img/d2.jpg" class="img-fluid" alt="">
+              <div class="box-details">
+                <h2>Sed ut perspiciatis</h2>
+                <p>Sed ut perspiciatis</p>
+                <a href="" class="stretched-link">Read more</a>
               </div>
             </div>
           </div>
 
-          <div class="col-md-6">
-            <div class="card2 card-primary">
-              <div class="card-header">
-                <h2 class="card-title">News</h2>
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+            <div class="box">
+              <img src="../dist/img/d3.jpg" class="img-fluid" alt="">
+              <div class="box-details">
+                <h2>Magni Dolores</h2>
+                <p>Magni Dolores</a></p>
+                <a href="" class="stretched-link">Read more</a>
               </div>
-              <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" style="height: 230px;">
-                <table class="table table-head-fixed text-nowrap table-striped">
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Title</th>
-                      <th>Description</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 1</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 2</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 3</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 4</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 5</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 6</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 7</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Event 8</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <!-- /.card-body -->
             </div>
+          </div>
 
-            <div class="card2 card-primary">
-              <div class="card-header">
-                <h2 class="card-title">Job Vacancies</h2>
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" style="height: 250px;">
-                <table class="table table-head-fixed text-nowrap table-striped">
-                  <thead>
-                    <tr>
-                      <th>Date</th>
-                      <th>Position</th>
-                      <th>Description</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Software Engineer</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Data Analyst</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Graphic Designer</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Marketing Manager</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Financial Analyst</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Human Resources Specialist</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Project Manager</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                    <tr>
-                      <td>11-7-2014</td>
-                      <td>Customer Service Representative</td>
-                      <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
+          <div class="col-xl-3 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
 
-              <!-- /.card-body -->
+            <div class="box">
+              <img src="../dist/img/d1.jpg" class="img-fluid" alt="">
+              <div class="box-details">
+                <h2>Nemo Enim</h2>
+                <p>Nemo Enim</p>
+                <a href="" class="stretched-link">Read more</a>
+              </div>
             </div>
 
           </div>
         </div>
       </div>
-
-
-
     </section>
 
-    <section class="content" id="clients">
-      <div class="spacer"></div>
-      <div class="content-header ">
-        <h1 class="text-white">OUR CLIENTELE</h1>
-      </div>
 
+
+
+    <section id="event" style="background: linear-gradient(to bottom, black, #1ae36d );">
+      <div class="content-header">
+        <h1>EVENT CALENDAR</h1>
+      </div>
+      <div class="container-fluid" data-aos="fade-right">
+        <div class="row">
+          <!-- <div class="col-md-3">
+            <div class="calendar-event mb-2">
+              <div class="header">
+                <h2>Create Event</h2>
+              </div>
+              <div class="body ">
+                <form action="">
+                  <div class="form-group row ">
+                    <label class="col-sm-4 mt-1">Event Title: </label>
+                    <input type="text" class="form-control col-sm-8">
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-4">Event Type:</label>
+                    <select class="form-control col-sm-8" style="width: 150px; border-radius: 10px;">
+                      <option value="">Meeting</option>
+                      <option value="">Seminar</option>
+                      <option value="">Conference</option>
+                      <option value="">Others</option>
+                    </select>
+                  </div>
+                  <div class="form-group row ">
+                    <label class="col-sm-4">Description: </label>
+                    <textarea class="form-control col-sm-8" rows="1" style="width: 150px; border-radius: 10px;"></textarea>
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-4">Time: </label>
+                    <input type="time" class="form-control col-sm-8 ">
+                  </div>
+                  <div class="form-group row">
+                    <label class="col-sm-4">Date: </label>
+                    <input type="date" class="form-control col-sm-8">
+                  </div>
+                  <div class="d-flex justify-content-end">
+                    <button type="reset" class="btn btn-danger btn-sm ">Reset Fields</button>
+                    <button type="button" class="btn btn-success btn-sm" style="margin-left: 5px;">Create</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="prebuilt-event">
+              <div class="header">
+                <h2>Prebuilt Events</h2>
+              </div>
+              <div class="body d-flex flex-column align-items-start">
+                <button class="btn btn-primary  mb-2">Meeting with Client</button>
+                <button class="btn btn-danger mb-2">Meeting with Boss</button>
+                <button class="btn btn-success mb-2">Meeting with Team</button>
+                <button class="btn btn-warning mb-2">Office Meeting</button>
+                <button class="btn btn-secondary mb-2">Travel</button>
+                <button class="btn btn-info mb-1">Birthday</button>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="col-md-12">
+            <div class="calendar-wrapper" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+              <div id='calendar'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <div class="col-xl-6">
+          <div class="row d-flex flex-column">
+
+            <div class="col-md-6" style="background-color: #093DF6; width: 100%">
+              <table id="myTable" class="display table table-dark" width="650px">
+                <thead>
+                  <tr>
+                    <th>Column 1</th>
+                    <th>Column 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Row 1 Data 1</td>
+                    <td>Row 1 Data 2</td>
+                  </tr>
+                  <tr>
+                    <td>Row 2 Data 1</td>
+                    <td>Row 2 Data 2</td>
+                  </tr>
+                </tbody>
+              </table>
+
+            </div>
+            <div class="col-md-6">
+<h1>yawa</h1>
+            </div>
+          </div>
+
+        </div> -->
+
+
+    <!-- <section id="clients">
+      <div class="content-header ">
+        <h1>OUR CLIENTELE</h1>
+      </div>
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-12">
-
             <div class="card-wrapper">
               <div class="row">
                 <div class="col">
@@ -474,116 +282,193 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <div class="footer">
-      <div class="footer-body">
-        <div class="spacer"></div>
-        <div class="container-fluid">
-          <div class="row m-3">
-            <div class="col-sm-12">
-              <div class="footer-wrapper">
-                <div class="row">
-                  <div class="col-md-3" style="text-align: center;">
-                    <img src="../dist/img/logo.png">
-                    <h3>
-                      GEOINFOMETRICS SOLUTIONS CORP.
-                    </h3>
-                    <p class="mt-2 text-center">
-                      Translating Knowledge to Service.
-                    </p>
-                  </div>
-                  <div class="col-md-3">
-                    <h2>
-                      Services
-                    </h2>
-                    <ul style="list-style-type: none; padding: 0;">
-                      <li>
-                        <a href="management.php">Management Information System (MIS)</a>
-                      </li>
-                      <li>
-                        <a href="planning.php">Planning</a>
-                      </li>
-                      <li>
-                        <a href="geo.php">Geographic Information System (GIS)</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-md-2">
-                    <h2>
-                      Projects
-                    </h2>
-                    <ul style="list-style-type: none; padding: 0;">
-                      <li>
-                        <a href="project.php#news">News</a>
-                      </li>
-                      <li>
-                        <a href="project.php#news">Job Vacancies</a>
-                      </li>
-                      <li>
-                        <a href="project.php#clients">Clients</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-md-2">
-                    <h2>
-                      About Us
-                    </h2>
-                    <ul style="list-style-type: none; padding: 0;">
-                      <li>
-                        <a href="about.php#company">Company Profile</a>
-                      </li>
-                      <li>
-                        <a href="about.php#team">Our Team</a>
-                      </li>
-                      <li>
-                        <a href="about.php#contact">Start a project</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div class="col-md-2">
-                    <h2>CONTACT US</h2>
-                    <ul style="list-style-type: none; padding: 0;">
-                      <li>
-                        <a href="#">
-                          <i class="fas fa-phone"></i> GLOBE: (049) 310 9451
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#">
-                          <i class="fas fa-home"></i> Anest Tower GF, 10411 Lopez Avenue Los Baños, Philippines 4030
-                        </a>
-                      </li>
-                      <li>
-                        <a href="mailto:info@example.com">
-                          <i class="fas fa-envelope"></i> info@example.com
-                        </a>
-                      </li>
-                      <li>
-                        <a href="https://www.facebook.com/geoinfometrics">
-                          <i class="fab fa-facebook-square"></i> fb.com/geoinfometrics
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+    <section id="news" style="background: linear-gradient(to top,  #0FCC7C, #e8e8eb);">
+      <div class="content-header">
+        <h1 class="text-dark">NEWS & JOBS</h1>
+      </div>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="news-wrapper" data-aos="fade-right" data-aos-delay="100" style="background-color: #fefefe; border-radius: 10px; overflow: auto; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15); ">
+              <div class="header" style="text-align: center;">
+                <h2>News & Announcements</h2>
+              </div>
+              <div class="body p-2">
+                <table id="myTable1" class="display" style="border-collapse: collapse; width: 100%;">
+                  <thead>
+                    <tr>
+                      <th>Date</th>
+                      <th>Title</th>
+                      <th>Description</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>2024-04-17</td>
+                      <td>New Service Launch</td>
+                      <td>We are excited to announce the launch of our new service. Check it out now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-15</td>
+                      <td>Service Maintenance</td>
+                      <td>We will be performing scheduled maintenance on our servers. Some services may be temporarily unavailable.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-10</td>
+                      <td>Customer Survey</td>
+                      <td>We want to hear from you! Take our customer survey and let us know how we can improve our services.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-17</td>
+                      <td>New Service Launch</td>
+                      <td>We are excited to announce the launch of our new service. Check it out now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-15</td>
+                      <td>Service Maintenance</td>
+                      <td>We will be performing scheduled maintenance on our servers. Some services may be temporarily unavailable.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-10</td>
+                      <td>Customer Survey</td>
+                      <td>We want to hear from you! Take our customer survey and let us know how we can improve our services.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-08</td>
+                      <td>Upcoming Webinar</td>
+                      <td>Join us for our upcoming webinar on the latest industry trends. Register now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-05</td>
+                      <td>Service Update</td>
+                      <td>We have made improvements to our service to provide you with a better user experience.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-17</td>
+                      <td>New Service Launch</td>
+                      <td>We are excited to announce the launch of our new service. Check it out now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-15</td>
+                      <td>Service Maintenance</td>
+                      <td>We will be performing scheduled maintenance on our servers. Some services may be temporarily unavailable.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-10</td>
+                      <td>Customer Survey</td>
+                      <td>We want to hear from you! Take our customer survey and let us know how we can improve our services.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-08</td>
+                      <td>Upcoming Webinar</td>
+                      <td>Join us for our upcoming webinar on the latest industry trends. Register now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-05</td>
+                      <td>Service Update</td>
+                      <td>We have made improvements to our service to provide you with a better user experience.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-17</td>
+                      <td>New Service Launch</td>
+                      <td>We are excited to announce the launch of our new service. Check it out now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-15</td>
+                      <td>Service Maintenance</td>
+                      <td>We will be performing scheduled maintenance on our servers. Some services may be temporarily unavailable.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-10</td>
+                      <td>Customer Survey</td>
+                      <td>We want to hear from you! Take our customer survey and let us know how we can improve our services.</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-08</td>
+                      <td>Upcoming Webinar</td>
+                      <td>Join us for our upcoming webinar on the latest industry trends. Register now!</td>
+                    </tr>
+                    <tr>
+                      <td>2024-04-05</td>
+                      <td>Service Update</td>
+                      <td>We have made improvements to our service to provide you with a better user experience.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="news-wrapper" data-aos="fade-left" data-aos-delay="100" style="background-color: #fefefe; border-radius: 10px;  overflow: auto; box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);">
+              <div class="header" style="text-align: center;">
+                <h2>Job Vancants</h2>
+              </div>
+              <div class="body p-2">
+                <table id="myTable2" class="display" style="border-collapse: collapse; width: 100%;">
+                  <thead>
+                    <tr>
+                      <th>Job Title</th>
+                      <th>Description</th>
+                      <th>Requirements</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Software Engineer</td>
+                      <td>We are looking for a skilled software engineer to join our team. The ideal candidate should have experience with JavaScript, HTML, CSS, and one or more backend languages such as Python, Java, or Node.js. Knowledge of modern web development frameworks is a plus.</td>
+                      <td>- Experience with JavaScript, HTML, CSS<br>- Familiarity with backend languages like Python, Java, or Node.js<br>- Knowledge of modern web development frameworks</td>
+                    </tr>
+                    <tr>
+                      <td>Marketing Specialist</td>
+                      <td>We are seeking a talented marketing specialist to develop and implement marketing strategies to promote our products and services. The candidate should have strong analytical skills and experience with digital marketing channels.</td>
+                      <td>- Strong analytical skills<br>- Experience with digital marketing channels<br>- Creativity and strategic thinking</td>
+                    </tr>
+                    <tr>
+                      <td>Graphic Designer</td>
+                      <td>We are looking for a creative graphic designer to create engaging and on-brand graphics for a variety of media. The ideal candidate should have experience with Adobe Creative Suite and a strong portfolio of design work.</td>
+                      <td>- Proficiency in Adobe Creative Suite<br>- Strong portfolio of design work<br>- Creativity and attention to detail</td>
+                    </tr>
+                    <tr>
+                      <td>Customer Support Representative</td>
+                      <td>We are hiring customer support representatives to provide excellent service and support to our customers. The ideal candidate should have strong communication skills and the ability to multitask in a fast-paced environment.</td>
+                      <td>- Excellent communication skills<br>- Ability to multitask<br>- Customer service experience is a plus</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
         </div>
 
-      </div>
+    </section>
 
-    </div>
-
+    <?php include 'footer.php'; ?>
   </div>
+
+  <script type="module">
+    document.addEventListener('DOMContentLoaded', function() {
+      var calendarEl = document.getElementById('calendar');
+      var calendar = new FullCalendar.Calendar(calendarEl, {
+        initialView: 'dayGridMonth'
+      });
+      calendar.render();
+    });
+    let table1 = new DataTable('#myTable1');
+    let table2 = new DataTable('#myTable2');
+    AOS.init();
+  </script>
 
 
 </body>
-
+<script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.datatables.net/2.0.3/js/dataTables.min.js"></script>
+<!-- <script src="https://cdn.datatables.net/responsive/3.0.1/js/dataTables.responsive.min.js"></script> -->
 <!-- AdminLTE JS -->
 <script src="../plugins/jquery/jquery.min.js"></script>
 
