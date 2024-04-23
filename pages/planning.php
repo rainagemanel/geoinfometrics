@@ -1,6 +1,5 @@
-<?php include 'header.php'; ?>
-</body>
-</nav>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +10,7 @@
     <link rel="stylesheet" href="../dist/css/jeb.css">
 </head>
 <body>
-
+<?php include 'header.php'; ?>
 
 <section id="gp" class="gp">
     <div class="tit" style="text-align: center; color: white;">

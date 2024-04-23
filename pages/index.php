@@ -1,5 +1,8 @@
-<?php include 'head.php'; ?>
+
 <?php include 'header.php'; ?>
+
+
+<link rel="stylesheet" href="../dist/css/style.css">
 
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
