@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from scratch.
@@ -62,82 +61,139 @@ This page gets rid of all links and provides the needed markup only.
       opacity: 1;
       /* Set opacity to 1 to make the menu visible */
     }
-
-    @keyframes dropdownAnimation {
-      from {
-        transform: scaleY(0);
-        /* Scale from 0 height */
-      }
-
-      to {
-        transform: scaleY(1);
-        /* Scale to full height */
-      }
+    /* CSS */
+    #loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999; /* Ensure it's on top of other content */
     }
-  </style>
-</head>
 
-<body class="hold-transition layout-top-nav">
-  <div class="wrapper">
-    <!-- Navbar -->
-    <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
-      <div class="container">
-        <a href="index.php" class="navbar-brand">
-          <img src="../dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-          <span class="brand-text font-weight-bold">GEO CORP</span>
-        </a>
+    .loader {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        animation: spin 2s linear infinite;
+    }
+    .loading {
+      font-size:20px;
+      margin-left: 10px;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
 
-        <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+        @keyframes dropdownAnimation {
+          from {
+            transform: scaleY(0);
+            /* Scale from 0 height */
+          }
 
-        <div class="collapse navbar-collapse order-3" id="navbarCollapse">
-          <!-- Left navbar links -->
-          <ul class="navbar-nav ml-auto"> <!-- Utilize ml-auto class to push the dropdown to the right -->
-            <li class="nav-item">
-              <a href="index.php" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="project.php" class="nav-link">News</a>
-            </li>
-            <li class="nav-item">
-              <a href="jobs.php" class="nav-link">Jobs</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
-              <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
-                <li><a href="geo.php" class="dropdown-item">Geographic Information System</a></li>
-                <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
-                <li><a href="planning.php" class="dropdown-item">Planning</a></li>
-                <!-- <li class="dropdown-divider"></li> -->
+          to {
+            transform: scaleY(1);
+            /* Scale to full height */
+          }
+        }
+      </style>
+    </head>
+    <body class="hold-transition layout-top-nav">
+    <div id="loading-screen">
+    <div class="loader"></div>
+    <p class="loading">Loading...</p>
+</div>
+
+      <div class="wrapper">
+        <!-- Navbar -->
+        <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
+          <div class="container">
+            <a href="index.php" class="navbar-brand">
+              <img src="../dist/img/logo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+              <span class="brand-text font-weight-bold">GEO CORP</span>
+            </a>
+
+            <button class="navbar-toggler order-1" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-3" id="navbarCollapse">
+              <!-- Left navbar links -->
+              <ul class="navbar-nav ml-auto"> <!-- Utilize ml-auto class to push the dropdown to the right -->
+                <li class="nav-item">
+                  <a href="index.php" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="project.php" class="nav-link">News</a>
+                </li>
+                <li class="nav-item">
+                  <a href="jobs.php" class="nav-link">Jobs</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
+                  <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
+                    <li><a href="geo.php" class="dropdown-item">Geographic Information System</a></li>
+                    <li><a href="management.php" class="dropdown-item">Management Information System</a></li>
+                    <li><a href="planning.php" class="dropdown-item">Planning</a></li>
+                    <!-- <li class="dropdown-divider"></li> -->
+                  </ul>
+                </li>
+
+
+                <li class="nav-item">
+                  <a href="contact.php" class="nav-link">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.php" class="nav-link">About Us</a>
               </ul>
-            </li>
+              </li>
+              </ul>
 
+            </div>
+            <!-- ./wrapper -->
 
-            <li class="nav-item">
-              <a href="contact.php" class="nav-link">Contact us</a>
-            </li>
-            <li class="nav-item">
-              <a href="about.php" class="nav-link">About Us</a>
-          </ul>
-          </li>
-          </ul>
+            <!-- REQUIRED SCRIPTS -->
+            <!-- jQuery -->
+            <script src="../plugins/jquery/jquery.min.js"></script>
+            <!-- Bootstrap 4 -->
+            <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+            <!-- AdminLTE App -->
+            <script src="../dist/js/adminlte.min.js"></script>
+            <!-- AdminLTE for demo purposes -->
 
-        </div>
-        <!-- ./wrapper -->
+            <!-- Bootstrap JS and jQuery -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script>// JavaScript
+    document.addEventListener("DOMContentLoaded", function () {
+        var loadingScreen = document.getElementById('loading-screen');
+        var links = document.getElementsByTagName('a');
 
-        <!-- REQUIRED SCRIPTS -->
-        <!-- jQuery -->
-        <script src="../plugins/jquery/jquery.min.js"></script>
-        <!-- Bootstrap 4 -->
-        <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <!-- AdminLTE App -->
-        <script src="../dist/js/adminlte.min.js"></script>
-        <!-- AdminLTE for demo purposes -->
-       
-        <!-- Bootstrap JS and jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        for (var i = 0; i < links.length; i++) {
+            links[i].addEventListener('click', function () {
+                loadingScreen.style.display = 'flex';
+            });
+        }
+    });
 
-</body>
-</nav>
+    window.onload = function () {
+        var loadingScreen = document.getElementById('loading-screen');
+        setTimeout(function () {
+            loadingScreen.style.opacity = '0'; // Fade out the loading screen
+            setTimeout(function () {
+                loadingScreen.style.display = 'none';
+                document.body.classList.add('loaded'); // Add .loaded class after a delay
+            }, 500); // Delay before adding .loaded class (adjust as needed)
+        }, 1000); // Delay before fading out loading screen (adjust as needed)
+    };
+    </script>
+    </body>
+    </nav>
+    </html>

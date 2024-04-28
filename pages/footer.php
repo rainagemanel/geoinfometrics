@@ -2,7 +2,7 @@
   <style>
     .project-link {
   font-weight: bold;
-  font-size: 44px;
+  font-size: 30px;
   text-decoration: none;
   color: inherit;
   transition: opacity 0.5s, font-size 0.5s;
@@ -13,10 +13,10 @@
 .project-link:hover {
   /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
    /* Increase opacity on hover */
-  font-size: 50px;
+  font-size: 33px;
   background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to right, #3675d6, #0FCC7C);
+  color: transparent;
+  background-image: linear-gradient(to right, #3675d6, #0FCC7C);
 
 }
 
@@ -60,10 +60,7 @@ footer .container p{
 
   <!-- Section: Links  -->
   <div class="text-center mx-auto mt-4 mb-3" style="background-color: white">
-    <a href="contact.php" class="project-link">
-      
-        Start a Project
-    </a>
+    
 
 <hr>
 </div>
@@ -76,9 +73,15 @@ footer .container p{
           <h6 class="text-uppercase font-weight-bold mb-3 text-left">
           <img src="../dist/img/logo.png" alt="AdminLTE Logo" style="max-height: 35px; max-width: 35px; margin-right: 5px;"class="brand-image img-circle elevation-3" style="opacity: .8"> Geo Corp
           </h6>
-          <p class = "text-left">
+          <p class = "text-center ml-3">
           Translating Knowledge to Service.
           </p>
+          <br>
+          <p class = "text-left">
+          <a href="contact.php" class="project-link">
+        Start a Project 
+          </a>
+        </p>
         </div>
         <!-- Grid column -->
 
