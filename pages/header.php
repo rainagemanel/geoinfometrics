@@ -1,3 +1,5 @@
+
+<?php include 'header.php'; ?>
 <!DOCTYPE html>
 <!--
 This is a starter template page. Use this page to start your new project from scratch.
@@ -98,6 +100,9 @@ This page gets rid of all links and provides the needed markup only.
             </li>
             <li class="nav-item">
               <a href="project.php" class="nav-link">News</a>
+            </li>
+            <li class="nav-item">
+              <a href="jobs.php" class="nav-link">Jobs</a>
             </li>
             <li class="nav-item dropdown">
               <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>

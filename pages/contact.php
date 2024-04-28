@@ -3,7 +3,7 @@
 
 </body>
 </nav>
-
+<link rel="stylesheet" href="../dist/css/style.css">
 <body>
     
         <section class="content">

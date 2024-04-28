@@ -3,7 +3,7 @@
 
 
 <link rel="stylesheet" href="../dist/css/style.css">
-
+<title>Geo Corp</title>
 <body class="hold-transition layout-top-nav">
 <div class="wrapper">
   <div class="bg-image">
