@@ -62,7 +62,7 @@ This page gets rid of all links and provides the needed markup only.
       /* Set opacity to 1 to make the menu visible */
     }
     /* CSS */
-    #loading-screen {
+    /* #loading-screen {
         position: fixed;
         top: 0;
         left: 0;
@@ -72,12 +72,12 @@ This page gets rid of all links and provides the needed markup only.
         display: flex;
         justify-content: center;
         align-items: center;
-        z-index: 9999; /* Ensure it's on top of other content */
+        z-index: 9999; 
     }
 
     .loader {
-        border: 16px solid #f3f3f3; /* Light grey */
-        border-top: 16px solid #3498db; /* Blue */
+        border: 16px solid #f3f3f3; 
+        border-top: 16px solid #3498db;
         border-radius: 50%;
         width: 70px;
         height: 70px;
@@ -90,7 +90,7 @@ This page gets rid of all links and provides the needed markup only.
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
-    }
+    } */
 
         @keyframes dropdownAnimation {
           from {
@@ -106,10 +106,10 @@ This page gets rid of all links and provides the needed markup only.
       </style>
     </head>
     <body class="hold-transition layout-top-nav">
-    <div id="loading-screen">
+    <!-- <div id="loading-screen">
     <div class="loader"></div>
     <p class="loading">Loading...</p>
-</div>
+</div> -->
 
       <div class="wrapper">
         <!-- Navbar -->
@@ -131,7 +131,7 @@ This page gets rid of all links and provides the needed markup only.
                   <a href="index.php" class="nav-link">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a href="project.php" class="nav-link">News</a>
+                  <a href="project.php" class="nav-link">News & Projects</a>
                 </li>
                 <li class="nav-item">
                   <a href="jobs.php" class="nav-link">Jobs</a>
@@ -150,10 +150,7 @@ This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                   <a href="contact.php" class="nav-link">Contact us</a>
                 </li>
-                <li class="nav-item">
-                  <a href="about.php" class="nav-link">About Us</a>
-              </ul>
-              </li>
+               
               </ul>
 
             </div>
@@ -171,7 +168,7 @@ This page gets rid of all links and provides the needed markup only.
             <!-- Bootstrap JS and jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script>// JavaScript
+    <!-- <script>// JavaScript
     document.addEventListener("DOMContentLoaded", function () {
         var loadingScreen = document.getElementById('loading-screen');
         var links = document.getElementsByTagName('a');
@@ -193,7 +190,8 @@ This page gets rid of all links and provides the needed markup only.
             }, 500); // Delay before adding .loaded class (adjust as needed)
         }, 1000); // Delay before fading out loading screen (adjust as needed)
     };
-    </script>
-    </body>
+    </script> -->
     </nav>
+    </body>
+    
     </html>

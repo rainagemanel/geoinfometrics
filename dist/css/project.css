@@ -41,11 +41,6 @@ a{
   font-weight: 400;
   color: #000000;
 }
-
-.card {
-  background-color: #ffffff;
-}
-
 .content-header h1{
   text-align: center; 
   color: #e8e8eb;
@@ -59,50 +54,46 @@ section {
   overflow: hidden;
   background-color: #f1f1f1;
 }
-.card-body {
-  padding: 10px;
-}
 
 
-/* .footer .footer-wrapper a {
-  font-family: "Montserrat", Arial, sans-serif;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: 14px;
-  line-height: 1.8;
-  font-weight: 400;
-  color: #696969;
-}
-.footer-body {
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+
+
+#carousel-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 75%;
+  height: 500px;
   background-color: #e8e8eb;
-  position: absolute;
-  width: 100%;
-  height: 30vh;
-  left: 0;
-  bottom: 0;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
-.footer .footer-wrapper img {
-  height: 100px;
-  border-radius: 50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  margin-bottom: 5px;
-  background-color: #ffffff;
-} */
 
-/* nav .btn {
-  background-color: #4caf50;
-  color: white;
-} */
+#carousel-wrapper .carousel {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+#carousel-wrapper .carousel img {
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 490px;
+  border-radius: 10px;
+}
+
+#carousel-wrapper .content-carousel {
+  transition: transform 0.5s ease;
+}
 
 #card-project .box {
-
   padding: 0;
   position: relative;
   overflow: hidden;
   background: #0FCC7C;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
-  
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
   z-index: 1;
@@ -124,7 +115,7 @@ section {
 
 #card-project .box .box-details{
   font-family: "Montserrat", Arial, sans-serif;
-  margin: 5% 0 5% 0;
+  margin: 2%;
   font-size: 12px;
 }
 
@@ -138,184 +129,90 @@ section {
   border-bottom: 2px solid #00384F;;
 }
 
+@media (max-width: 768px) {
+  #carousel-wrapper {
+    width: 100%;
+    height: 350px;
+  }
+  
+  #carousel-wrapper .carousel img {
+    height: 340px;
+  }
+  #carousel-wrapper .carousel .carousel-caption h2{
+    font-size: 16px;
+  }
+  #carousel-wrapper .carousel .carousel-caption p{
+    font-size: 12px;
+  }
+  #card-project .box{
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  #card-project .box img{
+    height: 150px;
+    width: 100%;
+  }
 
+  #news .news-wrapper{
+    height: 500px;
+  }
+  #news #myTable1 td{
+    font-size: 11px;
 
+  
+  }
 
-#carousel-wrapper {
-  margin: 0 auto; 
-  overflow: hidden;
-  width: 75%;
-  height: 500px;
-  background-color: #e8e8eb;
-  padding: 5px;
-  border-radius: 10px;
-}
-#carousel-wrapper .carousel{
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-} 
-#carousel-wrapper .carousel img{
-  object-fit: cover;
-  display: block; 
-  margin: 0 auto;
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
-
-#carousel-wrapper .content-carousel {
-  transition: transform 0.5s ease;
-}
-
-footer .container p{
-  color: rgb(100, 100, 100);
-}
-
-
-
-#event .calendar-event, #event .prebuilt-event{
-
-  background-color: #fefefe;
-  border-radius: 10px;
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
 }
 
-#event .calendar-event .header, #event .prebuilt-event .header, #news .news-wrapper .header{
+
+#news .news-wrapper .header{
   padding: 10px;
   text-align: center;
   border-bottom: 5px solid rgba(0, 0, 0, .125);
   background: linear-gradient(to right, #3675d6,#0FCC7C);
   border-radius: 10px 10px 0 0;
-}
-#event .calendar-event .header h2, #event .prebuilt-event .header h2{
-  font-size: 20px;
-  color: #ffffff;
-}
-#event .calendar-event .body, #event .prebuilt-event .body{
-  padding: 15px;
-}
-#event .calendar-event .form-group {
-  text-align: center;
-}
-#event .calendar-event input {
-  width: 100px;
-  border-radius: 10px;
-}
-#event .calendar-event label {
-  color: #00384F;
-  font-size: 16px;
-  font-weight: 600;
+  width: 100%
 }
 
-#event .calendar-wrapper {
-  
+#news .calendar-wrapper {
   width: 100%;
-  height: 80%;
+  height: 100%;
   background-color: #fefefe;
   border-radius: 10px;
   padding: 10px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
 }
-#event .calendar-wrapper #calendar {
-  width: 100%; height: 100%;
+#news .calendar-wrapper #calendar {
+  width: 100%; 
+  height: 100%;
+  border-collapse: collapse; 
+
 }
-#event .calendar-wrapper h2 {
-  background-clip: text;
+#news .calendar-wrapper h2 {
+    background-clip: text;
     color: transparent;
+
     background-image: linear-gradient(to right, #3675d6, #0FCC7C);
     border-bottom: 3px solid #00384F;
 }
-
-
-
-
-
-
-/* #project-row {
-  height: 120px;
-  display: flex;
-}
-
-#project-row .card {
-  height: 125px;
-  width: 100px;
-  background-color: #ffffff;
-}
-
-#project-row .card,
-#project-row img {
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-}
-
-#project-row img {
-  height: 100px;
-  width: 100px;
-}
-
-#project-row .card .card-body {
-  height: 40px;
-  width: 100px;
-
-  padding: 5px;
-  text-align: center;
-} */
-
-/* #news .card1 {
-  background-color: #ffffff;
-  width: auto;
-  height: 580px;
+#news .news-wrapper{
+  background-color: #fefefe; 
+  border-radius: 10px; 
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
   overflow: auto;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-#news .card2 {
-  background-color: #ffffff;
-  width: auto;
+#news #myTable1 {
+  border-collapse: collapse; 
+  width: 100%;
   overflow: auto;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-} */
-
-#clients {
-  background: linear-gradient(to right, #3675d6, #1ae36d);
 }
-#clients .card-wrapper {
-  background-color: #ffffff;
-  display: flex;
-  height: 50vh;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-#clients .card {
-  background-color: #ffffff;
-  width: 90px;
-  height: 100px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-#clients .card .card-body p {
-  font-size: 12px;
-  margin-top: 10px;
-  line-height: 1;
-}
-#clients .card .card-body img {
-  width: 50px;
-  margin-right: 20px;
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-
 
 
 /* ABOUTTT CSS */
+
+
 #team {
   background-color: #f1f1f1;
 }
@@ -323,30 +220,39 @@ footer .container p{
   background: linear-gradient(to right, #3675d6,#1ae36d);
 }
 #company {
-  background: linear-gradient(to right, #1ae36d, #3675d6);
+  background-image: url('../img/team.png');
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
 }
-#company .card .row1 {
-  display: flex;
-  flex-direction: row;
+#company .text{
+
+  margin-top: 50px;
+  text-align: center;
+  color: #00384F;
+  
 }
-#company .card .row1 img {
-  width: 60%;
-  border-radius: 50%;
+#company .text h2{
+  font-size: 72px;
+  color: #00384F;
+  
 }
-#company .card {
-  padding: 10px;
+#company .text hr{
+  width: 35%;
+  border-radius: 5px;
+  border: 3px solid #00384F;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-#company #card1 {
-  width: 100%;
-  height: 250px;
+
+#company .text p{
+  font-size: 34px;
+  color: #00384F;
+  margin-bottom: 25px;
+
 }
-#company .card-body {
-  padding: 0px;
-}
-#company #card2 {
-  width: 100%;
-  height: 200px;
-}
+
 #team .profile-wrapper {
   height: 465px;
   width: 300px;
@@ -401,177 +307,3 @@ margin: 5px;
   width: 100px;
 }
 
-@media (max-width: 480px) {
-  #carousel-wrapper {
-    width: 100%;
-    height: 40vh;
-  }
-  #carousel-wrapper .carousel-inner {
-    height: 40vh;
-    width: 100%;
-  }
-  #carousel-wrapper .carousel-inner img {
-    height: 275px;
-    width: 100%;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-  }
-  /* #project-row {
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-  }
-  #project-row .card {
-    background-color: #ffffff;
-    height: 100px;
-    width: 90px;
-  }
-  #project-row img {
-    height: 120px;
-    width: 90px;
-  }
-  #project-row .card .card-body {
-    height: 50px;
-    width: 90px;
-    margin: 0;
-    padding: 0;
-  }
-  #project-row .card p {
-    text-align: center;
-  } */
-  /* #news .container-fluid {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  #news .card1 {
-    width: 300px;
-    height: 250px;
-    font-size: 12px;
-    overflow: auto;
-  }
-  #news .card2 {
-    width: 300px;
-    height: 25%;
-    font-size: 12px;
-    overflow: auto;
-  }
-  #news .card-header {
-    padding: 10px;
-  } */
-  #clients .card-wrapper {
-    width: auto;
-    height: 80vh;
-    margin-bottom: 20px;
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
-  }
-  #clients .card {
-    width: 75px;
-    height: 100px;
-  }
-  #clients .card .card-body img {
-    width: 50px;
-    height: 50px;
-  }
-  #clients .card .card-body p {
-    font-size: 10px;
-  }
-  /* #company .card {
-    height: 200px;
-    padding: 5px;
-  }
-  #company #card1 {
-    height: 325px;
-  }
-  #company #card2 {
-    height: 125px;
-  }
-  #company h3, #company p{
-    font-size: 12px;
-  }
-  #company .card  {
-    overflow: auto;
-  }
-  #company .card  .row1{
-    display: flex;
-    flex-direction: column;
-  }
-  #team .profile-wrapper {
-    margin-left: 35px;
-    height: 180px;
-    width: 200px;
-    margin-bottom: 10px;
-  }
-  #team .profile-wrapper img{
-    height: 70px;
-    width: 100%;
-  }
-  #team .profile-wrapper h2{
-    font-size: 12px;
-    margin: 0;
-  }
-  #team .profile-wrapper p{
-    font-size: 10px;
-    padding: 0;
-    margin: 0;
-  }
-  #team .card-header{
-    height: 40px;
-    padding: 0;
-    margin-top: 5px;
-  }
-
-  #team .row2 {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-  }
-  #team .card{
-    height: 105px;
-  }
-
-  #company .spacer, #team .spacer {
-    height: 20px;
-  }
-  #company .card-header{
-    padding: 5px;
-  }
-
-  #contact .row3{
-    display: flex;
-    flex-direction: column;
-  }
-  #contact .row3 .card {
-    height: 290px;
-    overflow: auto;
-    
-  }
-  #contact .row3 .form-group{
-    padding: 5px;
-    margin-bottom: -10px;
-  }
-
-  #contact label{
-    font-size: 12px;
-  }
-  #contact .row3 .btn{
-    margin-top: 15px;
-    margin-bottom: 50px;
-  } */
-  /* .footer {
-    height: 100vh;
-  }
-  .footer .footer-body {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  .footer .footer-wrapper a {
-    font-size: 12px;
-  }
-  .footer .footer-wrapper img {
-    height: 70px;
-  } */
-}
