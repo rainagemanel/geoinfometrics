@@ -144,11 +144,13 @@ This page gets rid of all links and provides the needed markup only.
                     <li><a href="planning.php" class="dropdown-item">Planning</a></li>
                     <!-- <li class="dropdown-divider"></li> -->
                   </ul>
-                </li>
-
+      </li>
 
                 <li class="nav-item">
                   <a href="contact.php" class="nav-link">Contact us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="about.php" class="nav-link">About us</a>
                 </li>
                
               </ul>
