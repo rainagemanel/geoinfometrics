@@ -62,21 +62,24 @@
   }
 
   .bg-image .btn {
-    background-color:  darkgreen;
+    background-color:  rgb(255, 255, 255);
     font-family: "Red Hat Display", sans-serif;
-    color: white;
+    color: darkblue;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 15px;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
+    font-size: 34px;
     transition: font-size 0.5s, background-color 0.5s;
   }
 
   .bg-image .btn:hover {
-    background-color:  darkblue;
-    font-size: larger;
+    background-color: linear-gradient(to right, #3675D6, #1AE36D);
+    background-image: linear-gradient(to right, #3675d6, #0FCC7C);
+    font-size: 44px;
+    color: white;
   }
   .index2 {
     background-color: #f0f0f0;
@@ -167,22 +170,23 @@ width: calc(250px * 14);
   font-size: 18px;
 }
 
-.btn-green {
-  background-color: #4CAF50;
+/* .btn-green {
+  background-color: white;
   color: white;
-  /* padding: 10px 20px; */
+ 
   border: none;
   border-radius: 5px;
   text-transform: uppercase;
   padding: 5px;
   font-weight: bold;
+  
   transition: background-color 0.3s;
 }
 
 .btn-green:hover {
-  background-color: #45a049;
+  background-color: linear-gradient(to right, #3675D6, #1AE36D);
   color: white;
-}
+} */
 .col-md-4 {
   text-align: center;
   padding: 5px;

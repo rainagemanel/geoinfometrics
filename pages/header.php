@@ -13,7 +13,7 @@ This page gets rid of all links and provides the needed markup only.
 
   <!-- Google Font: Audiowide -->
   <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
-
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
 
@@ -62,7 +62,7 @@ This page gets rid of all links and provides the needed markup only.
       /* Set opacity to 1 to make the menu visible */
     }
     /* CSS */
-    /* #loading-screen {
+    #loading-screen {
         position: fixed;
         top: 0;
         left: 0;
@@ -90,7 +90,7 @@ This page gets rid of all links and provides the needed markup only.
     @keyframes spin {
         0% { transform: rotate(0deg); }
         100% { transform: rotate(360deg); }
-    } */
+    }
 
         @keyframes dropdownAnimation {
           from {
@@ -106,10 +106,10 @@ This page gets rid of all links and provides the needed markup only.
       </style>
     </head>
     <body class="hold-transition layout-top-nav">
-    <!-- <div id="loading-screen">
+    <div id="loading-screen">
     <div class="loader"></div>
     <p class="loading">Loading...</p>
-</div> -->
+</div>
 
       <div class="wrapper">
         <!-- Navbar -->
@@ -149,6 +149,7 @@ This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                   <a href="contact.php" class="nav-link">Contact us</a>
                 </li>
+
                 <li class="nav-item">
                   <a href="about.php" class="nav-link">About us</a>
                 </li>
@@ -170,7 +171,7 @@ This page gets rid of all links and provides the needed markup only.
             <!-- Bootstrap JS and jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <!-- <script>// JavaScript
+    <script>// JavaScript
     document.addEventListener("DOMContentLoaded", function () {
         var loadingScreen = document.getElementById('loading-screen');
         var links = document.getElementsByTagName('a');
@@ -192,7 +193,7 @@ This page gets rid of all links and provides the needed markup only.
             }, 500); // Delay before adding .loaded class (adjust as needed)
         }, 1000); // Delay before fading out loading screen (adjust as needed)
     };
-    </script> -->
+    </script>
     </nav>
     </body>
     
