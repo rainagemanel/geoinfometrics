@@ -149,7 +149,6 @@ This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                   <a href="contact.php" class="nav-link">Contact us</a>
                 </li>
-
                 <li class="nav-item">
                   <a href="about.php" class="nav-link">About us</a>
                 </li>
