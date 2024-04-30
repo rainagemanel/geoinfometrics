@@ -63,7 +63,7 @@ Connecting Communities"
       <div class="sidebar">
         <div class="logo"><span>Ser</span>vices</div>
         <hr>
-        <ul style="  max-height: calc(8 * (30px + 1.5em));overflow-y: auto; background-color:white; color:#333232">
+        <ul style="  max-height: calc(8 * (30px + 1.5em));overflow-y: auto; background-color:white; color:#333232;">
           <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">Cave Management Plan</a></li>
           <li><a onclick="changeImage('https://th.bing.com/th/id/R.7723d9f5878efc7e19f37c2b810da920?rik=Z69PwafjbzNXnw&riu=http%3a%2f%2fwww.urbansdgplatform.org%2fupload%2fcsd%2fGIS+layer.jpg%3bjsessionid%3dE25398A513C793F42401BD685D5531BA&ehk=GH6CnVA0ItHoU%2fgmeKS%2fJOgeEQ7eAAepxC2hAOgWUCc%3d&risl=&pid=ImgRaw&r=0')">Climate and Disaster Risk Assessment</a></li>
           <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">Ecological Profile</a></li>

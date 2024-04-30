@@ -166,23 +166,23 @@
   font-size: small;
 }
 
+.kbn .wrapper li{
+  align-items: center;
+}
+
 .kbn .wrapper a{
   display: block;
   color: #000000;
   font-size: 1rem;
   padding: 10px 5px;
-  border-radius: 10px; /* Adjust the value as needed */
-  
+  border-radius: 10px;
 }
 
 .kbn .wrapper a:hover{
   background-color: green;
 } 
 
-.col-md-8 {
 
-  overflow: hidden;
-}
 
 .kbn hr {
   display: block;
