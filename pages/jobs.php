@@ -1,13 +1,14 @@
 
 <?php include 'header.php'; ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Job Offerings</title>
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+
+  
   <style>
+    .h2 {
+  font-family: "Red Hat Display", sans-serif;
+    color: white;
+    
+}
     .job-card {
       transition: transform 0.3s ease;
     }
@@ -74,11 +75,12 @@
   border-radius: 15px;
 }
 
+
   </style>
 </head>
 <body>
 <div class="col-md-12 text-center mt-5">
-        <h2 class="mb-4 text-center" style="font-size:44px;">Jobs and Careers</h2>
+        <h2 class="mb-4 text-center" style="font-size:44px; font-family: Red Hat Display, sans-serif;"><strong>Jobs and Careers</strong></h2>
       </div>
   <div class="container mt-5">
     <div class="row">
@@ -91,9 +93,10 @@
         </ul>
       </div>
       <div class="col-md-8">
-        <div id="jobDetails" class="job-details">
+        <div id="jobDetails" class="job-details text-justify">
           <img src="../dist/img/photo2.png" alt="Default Image" class="banner">
-          <h3>Select a job to view details</h3>
+          
+          <h3 class="mt-2">Select a job to view details</h3>
         </div>
       </div>
     </div>
@@ -102,7 +105,7 @@
   <hr>
   <section class="content mt-5">
   <div class="col-md-12 text-center">
-        <h2 class="mb-2 text-center" style="font-size:44px;">Apply to us now!</h2>
+        <h2 class="mb-2 text-center" style="font-size:44px; font-family: Red Hat Display, sans-serif;"><strong>Apply to us now!</strong></h2>
       </div>
     <div class="card2-container">
         <div class="card2">
@@ -178,11 +181,11 @@
       // In a real scenario, you might fetch this information from a server
       switch (jobId) {
         case "job1":
-          return "<h3>Job 1 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 1 Big Image'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
+          return "<h3>Job 1 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 1 Big Image'><p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
         case "job2":
-          return "<h3>Job 2 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 2 Big Image'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
+          return "<h3>Job 2 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 2 Big Image'><p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
         case "job3":
-          return "<h3>Job 3 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 3 Big Image'><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
+          return "<h3>Job 3 Details</h3><img src='../dist/img/photo4.jpg' alt='Job 3 Big Image'><p><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam vitae ligula feugiat gravida. Ut et fermentum mauris, vitae elementum est. Suspendisse pharetra posuere egestas. Donec ac tristique nunc, non dapibus eros. Nam ullamcorper imperdiet tristique. Curabitur lobortis, nisl scelerisque placerat bibendum, sapien velit pretium magna, nec eleifend ex lectus et ligula. Maecenas lacinia felis eget gravida pretium. In eros nibh, scelerisque gravida metus sit amet, fringilla commodo eros. Proin commodo tristique purus, in facilisis mauris bibendum et. Ut eu purus consectetur, vulputate eros id, scelerisque justo.</p>";
         default:
           // Default content when no job is selected
           return "<img src='../dist/img/photo2.png.jpg' alt='Default Image'><h3>Select a job to view details</h3>";

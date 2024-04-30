@@ -17,7 +17,7 @@
       <li>PLANNING</li>
     </ul> -->
     <br><br><br>
-    <a href="contact.php" class="btn" style="color:white;">Contact Us Today!</a>
+    <a href="contact.php" class="btn" style="font-family: Red Hat Display, sans-serif;">Contact Us Today!</a>
     </div>
   </div>
 
@@ -170,7 +170,6 @@
         </div>
       </div>
     </div>
-    
   </div>
 </div>
 <?php include 'footer.php'; ?>
