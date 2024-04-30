@@ -93,7 +93,7 @@ Connecting Communities"
 
 <section id="ending" class="ending">
   <div>
-    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
+    <h2 style=" font-weight: 900; font-size:50px;">A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
     <a href="contact.php" class="button3">Let's get Started!</a>
   </div>  
 </section>
