@@ -6,8 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geographic Information System</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="../dist/css/services.css">
+
+    <script>
+function changeImage(imageUrl) {
+    document.getElementById("myimage").src = imageUrl;
+    var description = "";
+    switch (imageUrl) {
+        case 'https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg':
+            description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.";
+            break;
+        case 'https://th.bing.com/th/id/R.7723d9f5878efc7e19f37c2b810da920?rik=Z69PwafjbzNXnw&riu=http%3a%2f%2fwww.urbansdgplatform.org%2fupload%2fcsd%2fGIS+layer.jpg%3bjsessionid%3dE25398A513C793F42401BD685D5531BA&ehk=GH6CnVA0ItHoU%2fgmeKS%2fJOgeEQ7eAAepxC2hAOgWUCc%3d&risl=&pid=ImgRaw&r=0':
+            description = "Description for Geographic Information System";
+            break;
+        case 'https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg':
+            description = "Description for GIS-based Tax Mapping";
+            break;
+        case 'https://via.placeholder.com/750x500/00FF00/000000':
+            description = "Description for Global Positioning System";
+            break;
+        case 'https://via.placeholder.com/750x500/FFFF00/000000':
+            description = "Description for Remote Sensing";
+            break;
+        case 'https://via.placeholder.com/750x500/FF00FF/FFFFFF':
+            description = "Description for Simulation and Modeling";
+            break;
+    }
+    document.getElementById("dynamic-description").textContent = description;
+}
+</script>
 </head>
 <body>
 
@@ -30,349 +58,51 @@ Connecting Communities"
 </div>
 </section>
 
-<section id="ser1" class="ser1">
-<div class="container">
-<h1 class="my-4">Geographic 
-  <small>Information System</small>
-</h1>
-<div class="row">
-  <div class="col-md-8">
-    <a href="#" >
-    <!-- target="_blank" -->
-    <img id="firstimage" class="img-fluid" src="https://via.placeholder.com/750x500" alt="">
-    </a>
-  </div>
-  
-  <div class="col-md-4">
-    <h3 class="my-3"> Description</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-    <h3 class="my-3">Details</h3>
-    <ul>
-      <li>Lorem Ipsum</li>
-      <li>Dolor Sit Amet</li>
-      <li>Consectetur</li>
-      <li>Adipiscing Elit</li>
-    </ul>
-  </div>
-</div>
-
-<!-- Related Projects Row -->
-<h3 class="my-4">Other Services</h3>
-<div class="row">
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img id="secondimage" class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-</div>
-</div>
-</section>
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<script>
-  // JavaScript part
-  // Get references to the images by their IDs
-  var firstImage = document.getElementById("firstImage");
-  var secondImage = document.getElementById("secondImage");
-
-  // Add an event listener to the first image
-  firstImage.addEventListener("click", function() {
-    // Change the source of the first image to the second image
-    firstImage.src = "https://via.placeholder.com/500x300";
-  });
-
-  // Add an event listener to the second image
-  secondImage.addEventListener("click", function() {
-    // Change the source of the second image to the first image
-    secondImage.src = "https://via.placeholder.com/750x500";
-  });
-</script>
-
-
-<!-- <section id="ser2" class="ser2">
-<div class="container">
-<h1 class="my-4">Geographic 
-  <small>Information System</small>
-</h1>
-<div class="row">
-  <div class="col-md-8">
-    <a href="#">
-    <img class="img-fluid" src="https://via.placeholder.com/750x500" alt="">
-    </a>
-  </div>
-  <div class="col-md-4">
-    <h3 class="my-3">Project Description</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-    <h3 class="my-3">Project Details</h3>
-    <ul>
-      <li>Lorem Ipsum</li>
-      <li>Dolor Sit Amet</li>
-      <li>Consectetur</li>
-      <li>Adipiscing Elit</li>
-    </ul>
-  </div>
-</div>
-
-
-<h3 class="my-4">Related Projects</h3>
-<div class="row">
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-</div>
-</div>
-</section> -->
-
-<section>
-  <div class="container">
-
-    <!-- Page Heading -->
-    <h1 class="my-4">GIS
-      <small>Services</small>
-    </h1>
-
-    <!-- Project One -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
+  <section class="kbn">
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="logo"><span>Ser</span>vices</div>
+        <hr>
+        <ul style="  min-height:400px; background-color:white; color:black">
+          <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">Cartography</a></li>
+          <li><a onclick="changeImage('https://th.bing.com/th/id/R.7723d9f5878efc7e19f37c2b810da920?rik=Z69PwafjbzNXnw&riu=http%3a%2f%2fwww.urbansdgplatform.org%2fupload%2fcsd%2fGIS+layer.jpg%3bjsessionid%3dE25398A513C793F42401BD685D5531BA&ehk=GH6CnVA0ItHoU%2fgmeKS%2fJOgeEQ7eAAepxC2hAOgWUCc%3d&risl=&pid=ImgRaw&r=0')">Geographic Information System</a></li>
+          <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">GIS-based Tax Mapping</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/00FF00/000000')">Global Positioning System</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FFFF00/000000')">Remote Sensing</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Simulation and Modeling</a></li>
+        </ul>
       </div>
-      <div class="col-md-5">
-        <h3> One</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-        <a class="btn btn-primary" href="#">View </a>
-      </div>
+      <div class="container">
+  <!-- <h1 class="my-4">Geographic 
+    <small>Information System</small>
+  </h1> -->
+  <br><br><b><br>
+  <div class="row">
+    <div class="col-md-8">
+      <img id="myimage" class="img-fluid" src="https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg" alt="">
     </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!--  Two -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3> Two</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-        <a class="btn btn-primary" href="#">View </a>
-      </div>
+    
+    <div class="col-md-4 description-wrapper" style="background-color: white; color: black; border-radius: 10px;">
+      <h3 class="my-3"> Description</h3>
+      <p id="dynamic-description">Lorem ipsum dolor sit amet, consectetur
+         adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, 
+         adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
     </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!--  Three -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3> Three</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-        <a class="btn btn-primary" href="#">View </a>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!--  Four -->
-    <div class="row">
-
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3> Four</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-        <a class="btn btn-primary" href="#">View </a>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Pagination -->
-    <ul class="pagination justify-content-center">
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-          <span class="sr-only">Previous</span>
-        </a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">1</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">2</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">3</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-          <span class="sr-only">Next</span>
-        </a>
-      </li>
-    </ul>
-
   </div>
-</section>
+  </section>
 
-<!-- <section id="fp" class="fp">
-<div class="background"></div>
-    <div class="background-texture"></div>
-
-    <section class="carousel">
-      <h2 class="categories__title" style="font-weight: 700;">Geographic Management System Features</h2>
-      <div class="carousel__container">
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Geographic Information System</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Global Positioning System</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Remote Sensing</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Simulation and Modeling</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Cartography</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">GIS-based Tax Mapping</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-
-<!-- LAST PAGE  -->
 <section id="ending" class="ending">
   <div>
     <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
-    <button class="button3" id="pwu">Plan With Us!</button>
+    <a href="contact.php" class="button3">Let's get Started!</a>
   </div>  
 </section>
 
-
+<!-- <script>
+    function changeImage(imageUrl) {
+      document.getElementById('myimage').src = imageUrl;
+    }
+  </script> -->
 <?php include 'footer.php'; ?>
 </body>
 </html>

@@ -1,18 +1,48 @@
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../dist/css/jeb.css">
+    <title>Geographic Information System</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="../dist/css/services.css">
+
+    <script>
+function changeImage(imageUrl) {
+    document.getElementById("myimage").src = imageUrl;
+    var description = "";
+    switch (imageUrl) {
+        case 'https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg':
+            description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.";
+            break;
+        case 'https://th.bing.com/th/id/R.7723d9f5878efc7e19f37c2b810da920?rik=Z69PwafjbzNXnw&riu=http%3a%2f%2fwww.urbansdgplatform.org%2fupload%2fcsd%2fGIS+layer.jpg%3bjsessionid%3dE25398A513C793F42401BD685D5531BA&ehk=GH6CnVA0ItHoU%2fgmeKS%2fJOgeEQ7eAAepxC2hAOgWUCc%3d&risl=&pid=ImgRaw&r=0':
+            description = "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem? Pariaturrem tempore sunt laborum nobis iure alias modi exercitationem sint debitis a laboriosam obcaecati deserunt. Saepe?";
+            break;
+        case 'https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg':
+            description = "Lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem? ";
+            break;
+        case 'https://via.placeholder.com/750x500/00FF00/000000':
+            description = "Description for Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?";
+            break;
+        case 'https://via.placeholder.com/750x500/FFFF00/000000':
+            description = "Description for Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?";
+            break;
+        case 'https://via.placeholder.com/750x500/FF00FF/FFFFFF':
+            description = "Description for Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates ipsa et ipsam rem?";
+            break;
+    }
+    document.getElementById("dynamic-description").textContent = description;
+}
+</script>
 </head>
 <body>
+
 <?php include 'header.php'; ?>
 
-<section id="gp" class="gp">
+
+    <section id="gp" class="gp">
     <div class="tit" style="text-align: center; color: white;">
   <h1>
   "Mapping the World,
@@ -24,294 +54,163 @@ Connecting Communities"
   <b>Geographic."</b>
 <br>
 </h1>
-<a href="contact.php" class="button" style="background-color: #00cc00;">Let's get Started!</a>
+<a href="contact.php" class="button">Let's get Started!</a>
 </div>
 </section>
 
-
-<section id="fp" class="fp">
-<div class="background"></div>
-    <div class="background-texture"></div>
-
-    <section class="carousel">
-      <h2 class="categories__title" style="font-weight: 700;">Geographic Management System Features</h2>
-      <div class="carousel__container">
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/708392/pexels-photo-708392.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Geographic Information System</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1785001/pexels-photo-1785001.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Global Positioning System</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Remote Sensing</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1071882/pexels-photo-1071882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Simulation and Modeling</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Cartography</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-
-        <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/6945/sunset-summer-golden-hour-paul-filitchkin.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">GIS-based Tax Mapping</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-
-    </section>
-
-        <!-- <div class="carousel-item">
-          <img
-            class="carousel-item__img"
-            src="https://images.pexels.com/photos/1964471/pexels-photo-1964471.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-            alt="people"
-          />
-          <div class="carousel-item__details">
-            <h5 class="carousel-item__details--title">Descriptive Title</h5>
-            <h6 class="carousel-item__details--subtitle">Date and Duration</h6>
-          </div>
-        </div>
-      </div> -->
-
-
-<section id="ser2" class="ser2">
-<div class="container">
-<h1 class="my-4">Geographic 
-  <small>Information System</small>
-</h1>
-<div class="row">
-  <div class="col-md-8">
-    <a href="#">
-    <img class="img-fluid" src="https://via.placeholder.com/750x500" alt="">
-    </a>
-  </div>
-  <div class="col-md-4">
-    <h3 class="my-3">Project Description</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
-    <h3 class="my-3">Project Details</h3>
-    <ul>
-      <li>Lorem Ipsum</li>
-      <li>Dolor Sit Amet</li>
-      <li>Consectetur</li>
-      <li>Adipiscing Elit</li>
-    </ul>
-  </div>
-</div>
-
-
-<h3 class="my-4">Related Projects</h3>
-<div class="row">
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-
-  <div class="col-md-3 col-sm-6 mb-4">
-    <a href="#">
-          <img class="img-fluid" src="https://via.placeholder.com/500x300" alt="">
-        </a>
-  </div>
-</div>
-</div>
-</section>
-
-
-
-
-
-
-
-
-
-
-    </section>
-    <section>
-  <div class="container">
-
-    <!-- Page Heading -->
-    <h1 class="my-4">Page Heading
-      <small>Secondary Text</small>
-    </h1>
-
-    <!-- Project One -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
+  <section class="kbn">
+    <div class="wrapper">
+      <div class="sidebar">
+        <div class="logo"><span>Ser</span>vices</div>
+        <hr>
+        <ul style="  max-height: calc(8 * (30px + 1.5em));overflow-y: auto; background-color:white; color:#333232">
+          <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">Cave Management Plan</a></li>
+          <li><a onclick="changeImage('https://th.bing.com/th/id/R.7723d9f5878efc7e19f37c2b810da920?rik=Z69PwafjbzNXnw&riu=http%3a%2f%2fwww.urbansdgplatform.org%2fupload%2fcsd%2fGIS+layer.jpg%3bjsessionid%3dE25398A513C793F42401BD685D5531BA&ehk=GH6CnVA0ItHoU%2fgmeKS%2fJOgeEQ7eAAepxC2hAOgWUCc%3d&risl=&pid=ImgRaw&r=0')">Climate and Disaster Risk Assessment</a></li>
+          <li><a onclick="changeImage('https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg')">Ecological Profile</a></li>
+          <li><a onclick="changeImage('https://wallpaperaccess.com/full/5068689.jpg')">Comprehensive Development Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FFFF00/000000')">Comprehensive Land Use Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Disaster Risk Reduction and Management Plan Contingency Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/00FF00/000000')">Evacuation Camp Management Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FFFF00/000000')">Feasibility Studies</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Forest Land Use Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/00FF00/000000')">Gender and Development Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FFFF00/000000')">Initial Environmental Examination/Environmental Impact Assessment</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Disaster Risk Reduction and Management Plan Contingency Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/00FF00/000000')">Local Climate Change Action Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FFFF00/000000')">Local Shelter Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Solid Waste Management Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/00FF00/000000')">Tourism Master Plan</a></li>
+          <li><a onclick="changeImage('https://via.placeholder.com/750x500/FF00FF/FFFFFF')">Other government mandated plans</a></li>
+        </ul>
       </div>
-      <div class="col-md-5">
-        <h3>Project One</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-        <a class="btn btn-primary" href="#">View Project</a>
-      </div>
+      <div class="container">
+  <!-- <h1 class="my-4">Geographic 
+    <small>Information System</small>
+  </h1> -->
+  <br><br><b><br>
+  <div class="row">
+    <div  class="col-md-8">
+      <img id="myimage" class="img-fluid" src="https://media.wired.com/photos/59329470d80dd005b42af8c3/master/pass/Hotchin.jpg" alt="">
     </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Project Two -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3>Project Two</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-        <a class="btn btn-primary" href="#">View Project</a>
-      </div>
+    
+    <div class="col-md-4 description-wrapper" style="background-color: white; color: black; border-radius: 10px;">
+      <h3 class="my-3"> Description</h3>
+      <p id="dynamic-description">Lorem ipsum dolor sit amet, consectetur
+         adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, 
+         adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim.</p>
     </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Project Three -->
-    <div class="row">
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3>Project Three</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-        <a class="btn btn-primary" href="#">View Project</a>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Project Four -->
-    <div class="row">
-
-      <div class="col-md-7">
-        <a href="#">
-          <img class="img-fluid rounded mb-3 mb-md-0" src="https://via.placeholder.com/700x300" alt="">
-        </a>
-      </div>
-      <div class="col-md-5">
-        <h3>Project Four</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-        <a class="btn btn-primary" href="#">View Project</a>
-      </div>
-    </div>
-    <!-- /.row -->
-
-    <hr>
-
-    <!-- Pagination -->
-    <ul class="pagination justify-content-center">
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Previous">
-          <span aria-hidden="true">&laquo;</span>
-          <span class="sr-only">Previous</span>
-        </a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">1</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">2</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#">3</a>
-      </li>
-      <li class="page-item">
-        <a class="page-link" href="#" aria-label="Next">
-          <span aria-hidden="true">&raquo;</span>
-          <span class="sr-only">Next</span>
-        </a>
-      </li>
-    </ul>
-
   </div>
-</section>
-   
-    <section id="sp" class="sp">
-    <div>
-    <h2>A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
-    <button class="button3" id="pwu">Plan With Us!</button>
+  </section>
+
+<section id="ending" class="ending">
+  <div>
+    <h2 style=" font-weight: 900;">A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
+    <a href="contact.php" class="button3">Let's get Started!</a>
   </div>  
-    </section>
+</section>
 
-
-    
-
-
-
-
-
-    
-
-
-    <?php include 'footer.php'; ?>
-
+<!-- <script>
+    function changeImage(imageUrl) {
+      document.getElementById('myimage').src = imageUrl;
+    }
+  </script> -->
+<?php include 'footer.php'; ?>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+<!-- FIRST SERVICE CODE
+<section id="fp" class="fp">
+  <h3 style=" font-family: Audiowide, sans-serif;">Environmental Planning Services</h3>
+<table class="t" style="width: 100%;" >
+  <tr>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+</tr>
+</table>
+<br>
+<div id="embedContainer1" class="center-container">
+  <div class="iframe-container" style="height: 450px"> 
+    <iframe id="embedFrame1" width="100%" height="100%" src="https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362" title="YouTube video player" frameborder="0"
+       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
+       allowfullscreen></iframe>
+  </div>
+  <p class="mx-auto p-2" style="width: 200px;">Additonal INFO</p>
+</section>
+END OF FIRST SERVICE 
+
+SECOND SERVICE CODE 
+<section id="sp" class="sp">
+  <h3 style=" font-family: Audiowide, sans-serif;">Land Use Planning</h3>
+<table class="t" style="width: 100%;">
+<tr>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'sp', 'embedFrame2')">Climate and Disaster Risk Assessment</a></th>
+</tr>
+</table>
+<br>
+<div id="embedContainer2" class="center-container">
+  <div class="iframe-container" style="height: 450px"> 
+  <iframe id="embedFrame2" width="100%" height="100%" src="https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+</section>
+END OF SECOND PAGE 
+
+THIRD SERVICE PAGE 
+<section id="lup" class="lup">
+  <h3 style=" font-family: Audiowide, sans-serif;">Community Development Planning</h3>
+<table class="t" style="width: 100%;">
+<tr>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'tp', 'embedFrame3')">Climate and Disaster Risk Assessment</a></th>
+</tr>
+</table>
+<br>
+<div id="embedContainer3" class="center-container">
+  <div class="iframe-container" style="height: 450px"> 
+  <iframe id="embedFrame3" width="100%" height="100%" src="https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+</section>
+END OF THIRD PAGE 
+
+FOURTH SERVICE PAGE 
+<section id="fthp" class="fthp">
+  <h3 style=" font-family: Audiowide, sans-serif;">Emergency Management Planning</h3>
+<table class="t" style="width: 100%;">
+<tr>
+  <th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/VwmenPeK9rs?si=dgDZ7H-6qoUeR362', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+<th><a class="button" href="javascript:void(0);" onclick="changeEmbed('https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6', 'fthp', 'embedFrame1')">Climate and Disaster Risk Assessment</a></th>
+</tr>
+</table>
+<br>
+<div id="embedContainer4" class="center-container">
+  <div class="iframe-container" style="height: 450px"> 
+  <iframe id="embedFrame4" width="100%" height="100%" src="https://www.youtube.com/embed/q9luhiQdXLA?si=ZxA1nKcESigpzbH6" title="YouTube video player" frameborder="0"
+     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen></iframe>
+  </div>
+</section>
+END OF FOURTH PAGE  -->
