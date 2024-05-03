@@ -79,7 +79,7 @@ footer .container p{
           <br>
           <p class = "text-left">
           <a href="contact.php" class="project-link">
-        Start a Project 
+        Connect with us
           </a>
         </p>
         </div>

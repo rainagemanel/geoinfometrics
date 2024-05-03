@@ -190,7 +190,7 @@ This page gets rid of all links and provides the needed markup only.
                 loadingScreen.style.display = 'none';
                 document.body.classList.add('loaded'); // Add .loaded class after a delay
             }, 500); // Delay before adding .loaded class (adjust as needed)
-        }, 1000); // Delay before fading out loading screen (adjust as needed)
+        }, 500); // Delay before fading out loading screen (adjust as needed)
     };
     </script>
     </nav>

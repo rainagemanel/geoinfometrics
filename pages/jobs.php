@@ -105,7 +105,7 @@
   <hr>
   <section class="content mt-5">
   <div class="col-md-12 text-center">
-        <h2 class="mb-2 text-center" style="font-size:44px; font-family: Red Hat Display, sans-serif;"><strong>Apply to us now!</strong></h2>
+        <h2 class="mb-2 text-center" style="font-size:44px; font-family: Red Hat Display, sans-serif;"><strong>Apply to us</strong></h2>
       </div>
     <div class="card2-container">
         <div class="card2">
