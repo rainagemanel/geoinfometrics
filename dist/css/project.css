@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 h1 {
   font-family: "Barlow Condensed", Arial, sans-serif;
   line-height: 1.3;
@@ -24,27 +23,21 @@ h3 {
   font-size: 20px;
   margin: 0 auto;
   margin-left: 10px;
-  
 }
 p {
   font-family: "Montserrat", Arial, sans-serif;
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.8;
   font-weight: 400;
   color: #e8e8eb;
 }
-a{
+a {
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 400;
   color: #000000;
-}
-.content-header h1{
-  text-align: center; 
-  color: #e8e8eb;
-  font-size: 40px;
 }
 section {
   padding-top: 20px;
@@ -55,10 +48,16 @@ section {
   background-color: #f1f1f1;
 }
 
+#projects {
+  background: linear-gradient(to top, #e8e8eb, #3675d6);
+}
+#projects .content-header h1 {
+  color: #f1f1f1;
+  font-size: 44px;
+  text-align: center;
+}
 
-
-
-#carousel-wrapper {
+#projects #carousel-wrapper {
   margin: 0 auto;
   overflow: hidden;
   width: 75%;
@@ -69,111 +68,123 @@ section {
   box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
-#carousel-wrapper .carousel {
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
-
-#carousel-wrapper .carousel img {
-  object-fit: cover;
-  display: block;
-  margin: 0 auto;
+#projects #carousel-wrapper .carousel-inner img {
   width: 100%;
   height: 490px;
   border-radius: 10px;
+  transition: transform 0.5s ease;
 }
 
-#carousel-wrapper .content-carousel {
-  transition: transform 0.5s ease;
+/* #projects #carousel-wrapper .carousel-inner img:hover {
+  transform: scale(1.05);
+} */
+#projects #carousel-wrapper .carousel-inner .carousel-caption {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+#projects #carousel-wrapper .carousel-inner .carousel-caption #btn-carousel {
+  color: #ffffff;
+}
+
+#projects
+  #carousel-wrapper
+  .carousel-inner
+  .carousel-caption
+  #btn-carousel:hover {
+  color: #ffffff;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(to right, #3675d6, #0fcc7c) 1;
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#card-project {
+  background-color: #e8e8eb;
+}
+#card-project .content-header h1 {
+  color: #00384f;
+  font-size: 44px;
+  text-align: center;
 }
 
 #card-project .box {
   padding: 0;
   position: relative;
   overflow: hidden;
-  background: #0FCC7C;
+  background: #3675d6;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease-in-out;
   border-radius: 10px;
   z-index: 1;
-  height: 350px;
+  height: 300px;
   width: 100%;
   text-align: center;
-
 }
-#card-project .box img{
+#card-project .box img {
   object-fit: cover;
-  width: auto;
+  width: 100%;
   height: 70%;
   transition: 0.3s;
   position: relative;
   z-index: 1;
   color: #e8e8eb;
-  
+  border-bottom: 5px solid rgba(0, 0, 0, 0.125);
 }
 
-#card-project .box .box-details{
-  font-family: "Montserrat", Arial, sans-serif;
+#card-project .box .box-details h2,
+#card-project .box .box-details p,
+#card-project .box .box-details a {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#card-project .box .box-details {
   margin: 2%;
   font-size: 12px;
 }
 
 #card-project .box:hover {
-  background: #11c278;
-  transform: scale(1.05);   
+  transform: scale(1.05);
   box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.15);
 }
 #card-project .box a:hover {
   color: #f1f1f1;
-  border-bottom: 2px solid #00384F;;
+  border-bottom: 2px solid #00384f;
 }
 
-@media (max-width: 768px) {
-  #carousel-wrapper {
-    width: 100%;
-    height: 350px;
-  }
-  
-  #carousel-wrapper .carousel img {
-    height: 340px;
-  }
-  #carousel-wrapper .carousel .carousel-caption h2{
-    font-size: 16px;
-  }
-  #carousel-wrapper .carousel .carousel-caption p{
-    font-size: 12px;
-  }
-  #card-project .box{
-    height: 80%;
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 0;
-  }
-  #card-project .box img{
-    height: 150px;
-    width: 100%;
-  }
-
-  #news .news-wrapper{
-    height: 500px;
-  }
-  #news #myTable1 td{
-    font-size: 11px;
-
-  
-  }
-
+#news {
+  background: linear-gradient(to top, #0fcc7c, #e8e8eb);
 }
-
-
-#news .news-wrapper .header{
+#news .content-header h1 {
+  color: #00384f;
+  font-size: 44px;
+  text-align: center;
+}
+#news .news-wrapper .header {
   padding: 10px;
   text-align: center;
-  border-bottom: 5px solid rgba(0, 0, 0, .125);
-  background: linear-gradient(to right, #3675d6,#0FCC7C);
+  border-bottom: 5px solid rgba(0, 0, 0, 0.125);
+  background: linear-gradient(to right, #3675d6, #0fcc7c);
   border-radius: 10px 10px 0 0;
-  width: 100%
+  width: 100%;
+}
+
+#news .news-wrapper {
+  background-color: #fefefe;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
+  overflow: auto;
+  border-collapse: collapse;
+}
+
+#news .news-wrapper .body {
+  padding: 1rem;
+}
+#news .news-wrapper #myTable1 {
+  border-collapse: collapse;
+  width: 100%;
+  overflow: auto;
 }
 
 #news .calendar-wrapper {
@@ -181,129 +192,155 @@ section {
   height: 100%;
   background-color: #fefefe;
   border-radius: 10px;
-  padding: 10px;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
 }
 #news .calendar-wrapper #calendar {
-  width: 100%; 
+  width: 100%;
   height: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
+  overflow: auto;
+  padding: 1rem;
+}
 
+#news .calendar-wrapper #calendar .fc-header-toolbar {
+  margin: 0;
 }
 #news .calendar-wrapper h2 {
-    background-clip: text;
-    color: transparent;
+  background-clip: text;
+  color: transparent;
 
-    background-image: linear-gradient(to right, #3675d6, #0FCC7C);
-    border-bottom: 3px solid #00384F;
-}
-#news .news-wrapper{
-  background-color: #fefefe; 
-  border-radius: 10px; 
-  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.15);
-  overflow: auto;
-}
-#news #myTable1 {
-  border-collapse: collapse; 
-  width: 100%;
-  overflow: auto;
+  background-image: linear-gradient(to right, #3675d6, #0fcc7c);
+  border-bottom: 3px solid #00384f;
 }
 
-
-/* ABOUTTT CSS */
-
-
-#team {
-  background-color: #f1f1f1;
-}
-#contact {
-  background: linear-gradient(to right, #3675d6,#1ae36d);
-}
-#company {
-  background-image: url('../img/team.png');
-  margin: 0 auto;
-  background-size: cover;
-  background-position: center;
-  height: 90vh;
-}
-#company .text{
-
-  margin-top: 50px;
-  text-align: center;
-  color: #00384F;
-  
-}
-#company .text h2{
-  font-size: 72px;
-  color: #00384F;
-  
-}
-#company .text hr{
-  width: 35%;
-  border-radius: 5px;
-  border: 3px solid #00384F;
-  margin-top: 0;
-  margin-bottom: 0;
+.modal {
+  position: fixed; /* Fixed position so it stays in place */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Center the modal precisely */
+  z-index: 9999; /* Ensure it's above other elements */
+  display: none;
+  height: 590px;
+  width: 700px;
+  background-color: #fefefe;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-#company .text p{
-  font-size: 34px;
-  color: #00384F;
-  margin-bottom: 25px;
-
-}
-
-#team .profile-wrapper {
-  height: 465px;
-  width: 300px;
-  background-color:#ffffff;
+.modal .modal-header {
   padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
-}
-#team .profile-wrapper .card{
-margin: 5px;
-}
-#team .card-header  {
-  height: 55px;
-}
-#team .card-header h2 {
-  font-size: 15px;
-  margin-bottom: 0;
-}
-#team .profile-carousel-wrapper img {
-  height: 300px;
-  /* border-top-left-radius: 10px;
-  border-top-right-radius: 10px; */
-}
-#team .profile-carousel-wrapper {
-  height: 100%;
-  width: 100%;
-  border-radius: 10px;
-  background-color: #e8e8eb;
-}
-#team .row2 {
-  display: flex;
-  flex-direction: row;
-  justify-items: center;
-  margin-left: 130px;
-}
-#team h2,
-#team p {
   text-align: center;
-}
-#contact .card {
-  background-color: #ffffff;
-  height: 360px;
-}
-#contact .row3 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-#contact .row3 .btn {
-  float: right;
-  margin-right: 10px;
-  width: 100px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.125);
+  background-color: #0fcc7c;
+  width: 100%;
 }
 
+.modal .modal-header h2 {
+  color: #fefefe;
+}
+.modal .modal-body #project_title{
+  color: #00384f;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.modal .modal-body #project_desc{
+  color: #000000;
+}
+.modal .modal-body ul{
+  color: #000000;
+  list-style-type: none;
+  margin-bottom: .5rem;
+}
+.modal .modal-body #modal-contact{
+  color: #ffffff;
+  margin-left: 290px;
+}
+.modal .modal-body #modal-contact a{
+  color: #ffffff;
+}
+.modal .modal-body img {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  #projects .content-header h1, #news .content-header h1, #card-project .content-header h1 {
+    font-size: 40px;
+  }
+  #projects #carousel-wrapper .carousel-inner .carousel-caption #btn-carousel{
+    font-size: 12px;
+  }
+  #projects #carousel-wrapper {
+    width: 100%;
+    height: 350px;
+  }
+
+  #projects #carousel-wrapper .carousel img {
+    height: 340px;
+  }
+  #projects #carousel-wrapper .carousel .carousel-caption h2 {
+    font-size: 14px;
+  }
+  #projects #carousel-wrapper .carousel .carousel-caption p {
+    font-size: 11px;
+  }
+  #card-project .box {
+    height: 80%;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 0;
+  }
+  #card-project .box img {
+    height: 150px;
+    width: 100%;
+  }
+
+  #card-project .box .box-details h2 {
+    font-size: 14px;
+  }
+  #card-project .box .box-details p {
+    font-size: 11px;
+  }
+  #card-project .box .box-details a {
+    font-size: 11px;
+  }
+
+  #news .news-wrapper {
+    height: 500px;
+  }
+  #news .news-wrapper .body {
+    overflow: auto;
+  }
+  #news .calendar-wrapper #calendar {
+    overflow: auto;
+  }
+
+  #news #myTable1 td {
+    font-size: 11px;
+  }
+
+  .modal {
+    height: 50%;
+    width: 90%;
+  }
+  .modal .modal-body img {
+    height: 150px;
+    width: 100%;
+  }
+  .modal .modal-body #project_title{
+    font-size: 14px;
+    margin-bottom: 1rem;
+  }
+  .modal .modal-body p, .modal .modal-body ul{
+    font-size: 12px;
+  }
+  .modal .modal-body #modal-contact{
+    margin-left: 130px;
+  }
+  .modal .modal-body #modal-contact a{
+    color: #ffffff;
+  
+  }
+}

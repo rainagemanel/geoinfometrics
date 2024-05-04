@@ -30,8 +30,8 @@ This page gets rid of all links and provides the needed markup only.
     .navbar-brand .brand-text {
       /* font-family: "Konkhmer Sleokchher", system-ui; */
       font-family: "Red Hat Display", sans-serif;
-      font-style: bold;
-    }
+        font-style: bold;
+      }
 
     .navbar-nav .nav-link {
       /* font-weight: regular; Apply bold font to nav items */
@@ -104,12 +104,12 @@ This page gets rid of all links and provides the needed markup only.
           }
         }
       </style>
-    </head>
+    
     <body class="hold-transition layout-top-nav">
-    <div id="loading-screen">
+    <!-- <div id="loading-screen">
     <div class="loader"></div>
     <p class="loading">Loading...</p>
-</div>
+</div> -->
 
       <div class="wrapper">
         <!-- Navbar -->
@@ -133,6 +133,7 @@ This page gets rid of all links and provides the needed markup only.
                 <li class="nav-item">
                   <a href="project.php" class="nav-link">News & Projects</a>
                 </li>
+                
                 <li class="nav-item dropdown">
                   <a id="dropdownSubMenu1" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link dropdown-toggle">Services</a>
                   <ul aria-labelledby="dropdownSubMenu1" class="dropdown-menu border-0 shadow dropdown-menu-right"> <!-- Utilize dropdown-menu-right class to align the dropdown to the right -->
@@ -144,11 +145,13 @@ This page gets rid of all links and provides the needed markup only.
       </li>
 
                 <li class="nav-item">
-                  <a href="contact.php" class="nav-link">Contact us</a>
+                  <a href="contact.php" class="nav-link">Contact Us</a>
                 </li>
                 <li class="nav-item">
                   <a href="jobs.php" class="nav-link">Jobs</a>
                 </li>
+
+               
               </ul>
 
             </div>
@@ -166,7 +169,7 @@ This page gets rid of all links and provides the needed markup only.
             <!-- Bootstrap JS and jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script>// JavaScript
+    <!-- <script>// JavaScript
     document.addEventListener("DOMContentLoaded", function () {
         var loadingScreen = document.getElementById('loading-screen');
         var links = document.getElementsByTagName('a');
@@ -186,10 +189,11 @@ This page gets rid of all links and provides the needed markup only.
                 loadingScreen.style.display = 'none';
                 document.body.classList.add('loaded'); // Add .loaded class after a delay
             }, 500); // Delay before adding .loaded class (adjust as needed)
-        }, 500); // Delay before fading out loading screen (adjust as needed)
+        }, 1000); // Delay before fading out loading screen (adjust as needed)
     };
-    </script>
+    </script> -->
     </nav>
-    </body>
-    
-    </html>
+</div>
+
+  
+</body>
