@@ -1,3 +1,3 @@
 # geoinfometrics
 
-Hellow
+Geoinfometrics Solutions Corp. Front-end website.
