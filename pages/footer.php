@@ -1,5 +1,5 @@
 
-  <style>
+<style>
     .project-link {
   font-weight: bold;
   font-size: 30px;
@@ -28,7 +28,7 @@ footer .container p{
   line-height: 1.5rem;
 }
     </style>
-</head>
+
 <!-- Footer -->
 <footer class="text-center text-lg-start text-muted " style="background-color: aliceblue">
   <!-- Section: Social media -->
@@ -59,14 +59,10 @@ footer .container p{
   <!-- Section: Social media -->
 
   <!-- Section: Links  -->
-  <div class="text-center mx-auto mt-4 mb-3" style="background-color: white">
-    
 
-<hr>
-</div>
-    <div  class="container text-center text-md-start mt-5" >
+    <div  class="container text-center text-md-start pt-5" >
       <!-- Grid row -->
-      <div class="row mt-3">
+      <div class="row ">
         <!-- Grid column -->
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-3">
           <!-- Content -->
