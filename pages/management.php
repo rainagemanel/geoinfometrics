@@ -43,6 +43,28 @@ function changeImage(imageUrl) {
 
 <?php include 'header.php'; ?>
 
+<style>
+    .bg-image .btn {
+    background-color:  rgb(255, 255, 255);
+    font-family: "Red Hat Display", sans-serif;
+    color: darkblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 34px;
+    transition: font-size 0.5s, background-color 0.5s;
+  }
+
+  .bg-image .btn:hover {
+    background-color: linear-gradient(to right, #3675D6, #1AE36D);
+    background-image: linear-gradient(to right, #3675d6, #0FCC7C);
+    font-size: 44px;
+    color: white;
+  }
+</style>
 
     <section id="gp" class="gp">
     <div class="tit" style="text-align: center; color: white;">
@@ -56,7 +78,9 @@ Connecting Communities"
   <b>Geographic."</b>
 <br>
 </h1>
-<a href="contact.php" class="button">Let's get Started!</a>
+<div class="bg-image" id="btnup">
+ <a href="contact.php" class="btn" style="font-family: Red Hat Display, sans-serif;">Let's Get Started</a>
+ </div>
 </div>
 </section>
 
@@ -107,7 +131,9 @@ Connecting Communities"
 <section id="ending" class="ending">
   <div>
     <h2 style=" font-weight: 900; font-size:50px;">A GOAL WITHOUT<br><u> A PLAN</u><br> IS JUST A WISH</h2>
-    <a href="contact.php" class="button3">Let's get Started!</a>
+    <div class="bg-image" id="btnup">
+ <a href="contact.php" class="btn" style="font-family: Red Hat Display, sans-serif;">Let's Get Started</a>
+ </div>
   </div>  
 </section>
 
