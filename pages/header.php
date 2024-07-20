@@ -62,7 +62,7 @@ This page gets rid of all links and provides the needed markup only.
       /* Set opacity to 1 to make the menu visible */
     }
     /* CSS */
-    #loading-screen {
+    /* #loading-screen {
         position: fixed;
         top: 0;
         left: 0;
@@ -102,14 +102,14 @@ This page gets rid of all links and provides the needed markup only.
             transform: scaleY(1);
             /* Scale to full height */
           }
-        }
+        } */
       </style>
     </head>
     <body class="hold-transition layout-top-nav">
-    <div id="loading-screen">
+    <!-- <div id="loading-screen">
     <div class="loader"></div>
     <p class="loading">Loading...</p>
-</div>
+</div> -->
 
       <div class="wrapper">
         <!-- Navbar -->
