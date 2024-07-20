@@ -166,7 +166,7 @@ This page gets rid of all links and provides the needed markup only.
             <!-- Bootstrap JS and jQuery -->
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script>// JavaScript
+    <!-- <script>// JavaScript
     document.addEventListener("DOMContentLoaded", function () {
         var loadingScreen = document.getElementById('loading-screen');
         var links = document.getElementsByTagName('a');
@@ -188,7 +188,7 @@ This page gets rid of all links and provides the needed markup only.
             }, 500); // Delay before adding .loaded class (adjust as needed)
         }, 500); // Delay before fading out loading screen (adjust as needed)
     };
-    </script>
+    </script> -->
     </nav>
     </body>
     
